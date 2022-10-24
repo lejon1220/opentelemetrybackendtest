@@ -1,0 +1,2943 @@
+[
+	{
+		"resource": {
+			"attributes": [
+				{
+					"key": "service.name",
+					"value": {
+						"stringValue": "unknown_service:node"
+					}
+				},
+				{
+					"key": "telemetry.sdk.language",
+					"value": {
+						"stringValue": "nodejs"
+					}
+				},
+				{
+					"key": "telemetry.sdk.name",
+					"value": {
+						"stringValue": "opentelemetry"
+					}
+				},
+				{
+					"key": "telemetry.sdk.version",
+					"value": {
+						"stringValue": "1.7.0"
+					}
+				},
+				{
+					"key": "process.pid",
+					"value": {
+						"intValue": 4209
+					}
+				},
+				{
+					"key": "process.executable.name",
+					"value": {
+						"stringValue": "node"
+					}
+				},
+				{
+					"key": "process.command",
+					"value": {
+						"stringValue": "/Users/jonathanle/Documents/Coding/Cloned Repositories/Recipes-WebApp/server/server.js"
+					}
+				},
+				{
+					"key": "process.command_line",
+					"value": {
+						"stringValue": "/opt/homebrew/Cellar/node/18.9.1/bin/node /Users/jonathanle/Documents/Coding/Cloned Repositories/Recipes-WebApp/server/server.js"
+					}
+				},
+				{
+					"key": "process.runtime.version",
+					"value": {
+						"stringValue": "18.9.1"
+					}
+				},
+				{
+					"key": "process.runtime.name",
+					"value": {
+						"stringValue": "nodejs"
+					}
+				},
+				{
+					"key": "process.runtime.description",
+					"value": {
+						"stringValue": "Node.js"
+					}
+				}
+			],
+			"droppedAttributesCount": 0
+		},
+		"scopeSpans": [
+			{
+				"scope": {
+					"name": "@opentelemetry/instrumentation-dns",
+					"version": "0.30.0"
+				},
+				"spans": [
+					{
+						"traceId": "5fc91466df73b3b82dae135a164fd3c9",
+						"spanId": "3032abd75ce97b50",
+						"name": "dns.lookup",
+						"kind": 3,
+						"startTimeUnixNano": 1666636611697007400,
+						"endTimeUnixNano": 1666636611700033500,
+						"attributes": [
+							{
+								"key": "peer.ipv4",
+								"value": {
+									"stringValue": "13.64.102.141"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "83d1e685819d522424d9544da6df8807",
+						"spanId": "d1411907102e5a64",
+						"name": "dns.lookup",
+						"kind": 3,
+						"startTimeUnixNano": 1666636611696030200,
+						"endTimeUnixNano": 1666636611700742400,
+						"attributes": [
+							{
+								"key": "peer.ipv4",
+								"value": {
+									"stringValue": "13.64.103.77"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "4755de7d59d035c09065ef1d89e5fa80",
+						"spanId": "8756a2c1fe948d31",
+						"name": "dns.lookup",
+						"kind": 3,
+						"startTimeUnixNano": 1666636611698009900,
+						"endTimeUnixNano": 1666636611701010400,
+						"attributes": [
+							{
+								"key": "peer.ipv4",
+								"value": {
+									"stringValue": "13.64.96.159"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "bfed5cd630e9168b67c761d19530f384",
+						"spanId": "1e677c48ca926ab8",
+						"name": "dns.lookup",
+						"kind": 3,
+						"startTimeUnixNano": 1666636611778005200,
+						"endTimeUnixNano": 1666636611779401500,
+						"attributes": [
+							{
+								"key": "peer.ipv4",
+								"value": {
+									"stringValue": "13.64.102.141"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					}
+				]
+			},
+			{
+				"scope": {
+					"name": "@opentelemetry/instrumentation-net",
+					"version": "0.30.1"
+				},
+				"spans": [
+					{
+						"traceId": "29e008d717057d491f2ece43c4eccb99",
+						"spanId": "d81af4c99a3c2b94",
+						"name": "tcp.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636611697109000,
+						"endTimeUnixNano": 1666636611713114600,
+						"attributes": [
+							{
+								"key": "net.transport",
+								"value": {
+									"stringValue": "ip_tcp"
+								}
+							},
+							{
+								"key": "net.peer.name",
+								"value": {
+									"stringValue": "ac-ipvprxe-shard-00-01.vrgxqxt.mongodb.net"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 27017
+								}
+							},
+							{
+								"key": "net.peer.ip",
+								"value": {
+									"stringValue": "13.64.102.141"
+								}
+							},
+							{
+								"key": "net.host.ip",
+								"value": {
+									"stringValue": "192.168.1.73"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"intValue": 49848
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "40b19505f31dff92a1de9824f3040343",
+						"spanId": "b8e808567ab9fda5",
+						"name": "tcp.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636611695042600,
+						"endTimeUnixNano": 1666636611714025000,
+						"attributes": [
+							{
+								"key": "net.transport",
+								"value": {
+									"stringValue": "ip_tcp"
+								}
+							},
+							{
+								"key": "net.peer.name",
+								"value": {
+									"stringValue": "ac-ipvprxe-shard-00-02.vrgxqxt.mongodb.net"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 27017
+								}
+							},
+							{
+								"key": "net.peer.ip",
+								"value": {
+									"stringValue": "13.64.103.77"
+								}
+							},
+							{
+								"key": "net.host.ip",
+								"value": {
+									"stringValue": "192.168.1.73"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"intValue": 49849
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "18246c31552bee5406bada97e1573f65",
+						"spanId": "67e1efc0670d3839",
+						"name": "tcp.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636611698086400,
+						"endTimeUnixNano": 1666636611717878000,
+						"attributes": [
+							{
+								"key": "net.transport",
+								"value": {
+									"stringValue": "ip_tcp"
+								}
+							},
+							{
+								"key": "net.peer.name",
+								"value": {
+									"stringValue": "ac-ipvprxe-shard-00-00.vrgxqxt.mongodb.net"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 27017
+								}
+							},
+							{
+								"key": "net.peer.ip",
+								"value": {
+									"stringValue": "13.64.96.159"
+								}
+							},
+							{
+								"key": "net.host.ip",
+								"value": {
+									"stringValue": "192.168.1.73"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"intValue": 49850
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "30c76e6926da84709ba1bf1b1c247f42",
+						"spanId": "2a4840232e5dea24",
+						"name": "tls.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636611698011600,
+						"endTimeUnixNano": 1666636611753913000,
+						"attributes": [
+							{
+								"key": "tls.protocol",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.authorized",
+								"value": {
+									"stringValue": "true"
+								}
+							},
+							{
+								"key": "tls.cipher.name",
+								"value": {
+									"stringValue": "TLS_AES_128_GCM_SHA256"
+								}
+							},
+							{
+								"key": "tls.cipher.version",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.certificate.fingerprint",
+								"value": {
+									"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+								}
+							},
+							{
+								"key": "tls.certificate.serialNumber",
+								"value": {
+									"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+								}
+							},
+							{
+								"key": "tls.certificate.validFrom",
+								"value": {
+									"stringValue": "Sep 17 00:19:37 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.certificate.validTo",
+								"value": {
+									"stringValue": "Dec 16 00:19:36 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.alpnProtocol",
+								"value": {
+									"stringValue": ""
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "6cb3d60f4ab24dd48326af4a109235b2",
+						"spanId": "a777745fcc0ed704",
+						"name": "tls.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636611694235600,
+						"endTimeUnixNano": 1666636611756383700,
+						"attributes": [
+							{
+								"key": "tls.protocol",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.authorized",
+								"value": {
+									"stringValue": "true"
+								}
+							},
+							{
+								"key": "tls.cipher.name",
+								"value": {
+									"stringValue": "TLS_AES_128_GCM_SHA256"
+								}
+							},
+							{
+								"key": "tls.cipher.version",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.certificate.fingerprint",
+								"value": {
+									"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+								}
+							},
+							{
+								"key": "tls.certificate.serialNumber",
+								"value": {
+									"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+								}
+							},
+							{
+								"key": "tls.certificate.validFrom",
+								"value": {
+									"stringValue": "Sep 17 00:19:37 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.certificate.validTo",
+								"value": {
+									"stringValue": "Dec 16 00:19:36 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.alpnProtocol",
+								"value": {
+									"stringValue": ""
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "ff055708dae8d2cf34ab3422883e6ecc",
+						"spanId": "39178976427711bb",
+						"name": "tls.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636611697015600,
+						"endTimeUnixNano": 1666636611761981400,
+						"attributes": [
+							{
+								"key": "tls.protocol",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.authorized",
+								"value": {
+									"stringValue": "true"
+								}
+							},
+							{
+								"key": "tls.cipher.name",
+								"value": {
+									"stringValue": "TLS_AES_128_GCM_SHA256"
+								}
+							},
+							{
+								"key": "tls.cipher.version",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.certificate.fingerprint",
+								"value": {
+									"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+								}
+							},
+							{
+								"key": "tls.certificate.serialNumber",
+								"value": {
+									"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+								}
+							},
+							{
+								"key": "tls.certificate.validFrom",
+								"value": {
+									"stringValue": "Sep 17 00:19:37 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.certificate.validTo",
+								"value": {
+									"stringValue": "Dec 16 00:19:36 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.alpnProtocol",
+								"value": {
+									"stringValue": ""
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "c8fce55fec71ebbab2b93fd8888173ac",
+						"spanId": "e577e48d8230a1e7",
+						"name": "tcp.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636611777094000,
+						"endTimeUnixNano": 1666636611790404900,
+						"attributes": [
+							{
+								"key": "net.transport",
+								"value": {
+									"stringValue": "ip_tcp"
+								}
+							},
+							{
+								"key": "net.peer.name",
+								"value": {
+									"stringValue": "ac-ipvprxe-shard-00-01.vrgxqxt.mongodb.net"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 27017
+								}
+							},
+							{
+								"key": "net.peer.ip",
+								"value": {
+									"stringValue": "13.64.102.141"
+								}
+							},
+							{
+								"key": "net.host.ip",
+								"value": {
+									"stringValue": "192.168.1.73"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"intValue": 49851
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "f01c862a48f6e2353770b51f94c147d6",
+						"spanId": "474cf6bda221c0d9",
+						"name": "tls.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636611777022200,
+						"endTimeUnixNano": 1666636611843203600,
+						"attributes": [
+							{
+								"key": "tls.protocol",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.authorized",
+								"value": {
+									"stringValue": "true"
+								}
+							},
+							{
+								"key": "tls.cipher.name",
+								"value": {
+									"stringValue": "TLS_AES_128_GCM_SHA256"
+								}
+							},
+							{
+								"key": "tls.cipher.version",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.certificate.fingerprint",
+								"value": {
+									"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+								}
+							},
+							{
+								"key": "tls.certificate.serialNumber",
+								"value": {
+									"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+								}
+							},
+							{
+								"key": "tls.certificate.validFrom",
+								"value": {
+									"stringValue": "Sep 17 00:19:37 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.certificate.validTo",
+								"value": {
+									"stringValue": "Dec 16 00:19:36 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.alpnProtocol",
+								"value": {
+									"stringValue": ""
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					}
+				]
+			},
+			{
+				"scope": {
+					"name": "@opentelemetry/instrumentation-express",
+					"version": "0.31.2"
+				},
+				"spans": [
+					{
+						"traceId": "c02d37e473eaa60fb6a2280ade7b7436",
+						"spanId": "bab9a7a4e397b50e",
+						"parentSpanId": "8605f4e9b47d354e",
+						"name": "middleware - query",
+						"kind": 1,
+						"startTimeUnixNano": 1666636613782063400,
+						"endTimeUnixNano": 1666636613782601200,
+						"attributes": [
+							{
+								"key": "http.route",
+								"value": {
+									"stringValue": "/"
+								}
+							},
+							{
+								"key": "express.name",
+								"value": {
+									"stringValue": "query"
+								}
+							},
+							{
+								"key": "express.type",
+								"value": {
+									"stringValue": "middleware"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "c02d37e473eaa60fb6a2280ade7b7436",
+						"spanId": "317dd2d04592652e",
+						"parentSpanId": "8605f4e9b47d354e",
+						"name": "middleware - expressInit",
+						"kind": 1,
+						"startTimeUnixNano": 1666636613783219700,
+						"endTimeUnixNano": 1666636613783581400,
+						"attributes": [
+							{
+								"key": "http.route",
+								"value": {
+									"stringValue": "/"
+								}
+							},
+							{
+								"key": "express.name",
+								"value": {
+									"stringValue": "expressInit"
+								}
+							},
+							{
+								"key": "express.type",
+								"value": {
+									"stringValue": "middleware"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "c02d37e473eaa60fb6a2280ade7b7436",
+						"spanId": "5a98a05c774f20d0",
+						"parentSpanId": "8605f4e9b47d354e",
+						"name": "middleware - jsonParser",
+						"kind": 1,
+						"startTimeUnixNano": 1666636613783662000,
+						"endTimeUnixNano": 1666636613783782000,
+						"attributes": [
+							{
+								"key": "http.route",
+								"value": {
+									"stringValue": "/"
+								}
+							},
+							{
+								"key": "express.name",
+								"value": {
+									"stringValue": "jsonParser"
+								}
+							},
+							{
+								"key": "express.type",
+								"value": {
+									"stringValue": "middleware"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "c02d37e473eaa60fb6a2280ade7b7436",
+						"spanId": "a8e86b0ab58036d4",
+						"parentSpanId": "8605f4e9b47d354e",
+						"name": "middleware - urlencodedParser",
+						"kind": 1,
+						"startTimeUnixNano": 1666636613783830500,
+						"endTimeUnixNano": 1666636613783905300,
+						"attributes": [
+							{
+								"key": "http.route",
+								"value": {
+									"stringValue": "/"
+								}
+							},
+							{
+								"key": "express.name",
+								"value": {
+									"stringValue": "urlencodedParser"
+								}
+							},
+							{
+								"key": "express.type",
+								"value": {
+									"stringValue": "middleware"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "c02d37e473eaa60fb6a2280ade7b7436",
+						"spanId": "ff16ebc47fcc566a",
+						"parentSpanId": "8605f4e9b47d354e",
+						"name": "router - /api",
+						"kind": 1,
+						"startTimeUnixNano": 1666636613784060000,
+						"endTimeUnixNano": 1666636613784070000,
+						"attributes": [
+							{
+								"key": "http.route",
+								"value": {
+									"stringValue": "/api"
+								}
+							},
+							{
+								"key": "express.name",
+								"value": {
+									"stringValue": "/api"
+								}
+							},
+							{
+								"key": "express.type",
+								"value": {
+									"stringValue": "router"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "c02d37e473eaa60fb6a2280ade7b7436",
+						"spanId": "d634d6adaa760807",
+						"parentSpanId": "8605f4e9b47d354e",
+						"name": "request handler - /",
+						"kind": 1,
+						"startTimeUnixNano": 1666636613784241700,
+						"endTimeUnixNano": 1666636613784251400,
+						"attributes": [
+							{
+								"key": "http.route",
+								"value": {
+									"stringValue": "/api"
+								}
+							},
+							{
+								"key": "express.name",
+								"value": {
+									"stringValue": "/"
+								}
+							},
+							{
+								"key": "express.type",
+								"value": {
+									"stringValue": "request_handler"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					}
+				]
+			},
+			{
+				"scope": {
+					"name": "@opentelemetry/instrumentation-mongodb",
+					"version": "0.32.1"
+				},
+				"spans": [
+					{
+						"traceId": "c02d37e473eaa60fb6a2280ade7b7436",
+						"spanId": "693d35428322a82e",
+						"parentSpanId": "8605f4e9b47d354e",
+						"name": "mongodb.find",
+						"kind": 3,
+						"startTimeUnixNano": 1666636613790840000,
+						"endTimeUnixNano": 1666636613804182000,
+						"attributes": [
+							{
+								"key": "db.system",
+								"value": {
+									"stringValue": "mongodb"
+								}
+							},
+							{
+								"key": "db.name",
+								"value": {
+									"stringValue": "Recipes"
+								}
+							},
+							{
+								"key": "db.mongodb.collection",
+								"value": {
+									"stringValue": "recipes"
+								}
+							},
+							{
+								"key": "net.host.name",
+								"value": {
+									"stringValue": "13.64.102.141"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"stringValue": "27017"
+								}
+							},
+							{
+								"key": "db.statement",
+								"value": {
+									"stringValue": "{\"find\":\"?\",\"filter\":\"?\",\"projection\":\"?\"}"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					}
+				]
+			},
+			{
+				"scope": {
+					"name": "@opentelemetry/instrumentation-mongoose",
+					"version": "0.31.0"
+				},
+				"spans": [
+					{
+						"traceId": "c02d37e473eaa60fb6a2280ade7b7436",
+						"spanId": "3567be92fd7a88c4",
+						"parentSpanId": "8605f4e9b47d354e",
+						"name": "mongoose.recipe.find",
+						"kind": 3,
+						"startTimeUnixNano": 1666636613786317000,
+						"endTimeUnixNano": 1666636613811750700,
+						"attributes": [
+							{
+								"key": "db.mongodb.collection",
+								"value": {
+									"stringValue": "recipes"
+								}
+							},
+							{
+								"key": "db.name",
+								"value": {
+									"stringValue": "Recipes"
+								}
+							},
+							{
+								"key": "net.peer.name",
+								"value": {
+									"stringValue": "ac-ipvprxe-shard-00-02.vrgxqxt.mongodb.net"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 27017
+								}
+							},
+							{
+								"key": "db.operation",
+								"value": {
+									"stringValue": "find"
+								}
+							},
+							{
+								"key": "db.system",
+								"value": {
+									"stringValue": "mongoose"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					}
+				]
+			},
+			{
+				"scope": {
+					"name": "@opentelemetry/instrumentation-http",
+					"version": "0.32.0"
+				},
+				"spans": [
+					{
+						"traceId": "c02d37e473eaa60fb6a2280ade7b7436",
+						"spanId": "8605f4e9b47d354e",
+						"name": "GET /api",
+						"kind": 2,
+						"startTimeUnixNano": 1666636613778062800,
+						"endTimeUnixNano": 1666636613816008200,
+						"attributes": [
+							{
+								"key": "http.url",
+								"value": {
+									"stringValue": "http://localhost:8080/api"
+								}
+							},
+							{
+								"key": "http.host",
+								"value": {
+									"stringValue": "localhost:8080"
+								}
+							},
+							{
+								"key": "net.host.name",
+								"value": {
+									"stringValue": "localhost"
+								}
+							},
+							{
+								"key": "http.method",
+								"value": {
+									"stringValue": "GET"
+								}
+							},
+							{
+								"key": "http.target",
+								"value": {
+									"stringValue": "/api"
+								}
+							},
+							{
+								"key": "http.user_agent",
+								"value": {
+									"stringValue": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+								}
+							},
+							{
+								"key": "http.flavor",
+								"value": {
+									"stringValue": "1.1"
+								}
+							},
+							{
+								"key": "net.transport",
+								"value": {
+									"stringValue": "ip_tcp"
+								}
+							},
+							{
+								"key": "net.host.ip",
+								"value": {
+									"stringValue": "::1"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"intValue": 3000
+								}
+							},
+							{
+								"key": "net.peer.ip",
+								"value": {
+									"stringValue": "::1"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 49856
+								}
+							},
+							{
+								"key": "http.status_code",
+								"value": {
+									"intValue": 304
+								}
+							},
+							{
+								"key": "http.status_text",
+								"value": {
+									"stringValue": "NOT MODIFIED"
+								}
+							},
+							{
+								"key": "http.route",
+								"value": {
+									"stringValue": "/api"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					}
+				]
+			}
+		]
+	}
+][
+	{
+		"resource": {
+			"attributes": [
+				{
+					"key": "service.name",
+					"value": {
+						"stringValue": "unknown_service:node"
+					}
+				},
+				{
+					"key": "telemetry.sdk.language",
+					"value": {
+						"stringValue": "nodejs"
+					}
+				},
+				{
+					"key": "telemetry.sdk.name",
+					"value": {
+						"stringValue": "opentelemetry"
+					}
+				},
+				{
+					"key": "telemetry.sdk.version",
+					"value": {
+						"stringValue": "1.7.0"
+					}
+				},
+				{
+					"key": "process.pid",
+					"value": {
+						"intValue": 4209
+					}
+				},
+				{
+					"key": "process.executable.name",
+					"value": {
+						"stringValue": "node"
+					}
+				},
+				{
+					"key": "process.command",
+					"value": {
+						"stringValue": "/Users/jonathanle/Documents/Coding/Cloned Repositories/Recipes-WebApp/server/server.js"
+					}
+				},
+				{
+					"key": "process.command_line",
+					"value": {
+						"stringValue": "/opt/homebrew/Cellar/node/18.9.1/bin/node /Users/jonathanle/Documents/Coding/Cloned Repositories/Recipes-WebApp/server/server.js"
+					}
+				},
+				{
+					"key": "process.runtime.version",
+					"value": {
+						"stringValue": "18.9.1"
+					}
+				},
+				{
+					"key": "process.runtime.name",
+					"value": {
+						"stringValue": "nodejs"
+					}
+				},
+				{
+					"key": "process.runtime.description",
+					"value": {
+						"stringValue": "Node.js"
+					}
+				}
+			],
+			"droppedAttributesCount": 0
+		},
+		"scopeSpans": [
+			{
+				"scope": {
+					"name": "@opentelemetry/instrumentation-dns",
+					"version": "0.30.0"
+				},
+				"spans": [
+					{
+						"traceId": "aab544886a1230384f2d3b1f3d3d7c30",
+						"spanId": "32276bd4dcd94859",
+						"name": "dns.lookup",
+						"kind": 3,
+						"startTimeUnixNano": 1666636622277010400,
+						"endTimeUnixNano": 1666636622279363300,
+						"attributes": [
+							{
+								"key": "peer.ipv4",
+								"value": {
+									"stringValue": "13.64.96.159"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "61bb5b624633cc6d9bfe4f197c205543",
+						"spanId": "e0c317ab30538b0e",
+						"name": "dns.lookup",
+						"kind": 3,
+						"startTimeUnixNano": 1666636622278011100,
+						"endTimeUnixNano": 1666636622279796700,
+						"attributes": [
+							{
+								"key": "peer.ipv4",
+								"value": {
+									"stringValue": "13.64.103.77"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "6d9e80e56ffc490fbe3daf7842aab126",
+						"spanId": "9aaaec3b8585fe3b",
+						"name": "dns.lookup",
+						"kind": 3,
+						"startTimeUnixNano": 1666636622280008000,
+						"endTimeUnixNano": 1666636622281126700,
+						"attributes": [
+							{
+								"key": "peer.ipv4",
+								"value": {
+									"stringValue": "13.64.102.141"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					}
+				]
+			},
+			{
+				"scope": {
+					"name": "@opentelemetry/instrumentation-net",
+					"version": "0.30.1"
+				},
+				"spans": [
+					{
+						"traceId": "098f8d653e0dbbaf1a55d45bc275d7cc",
+						"spanId": "5b531ddbe042dc49",
+						"name": "tcp.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636622277015800,
+						"endTimeUnixNano": 1666636622293208800,
+						"attributes": [
+							{
+								"key": "net.transport",
+								"value": {
+									"stringValue": "ip_tcp"
+								}
+							},
+							{
+								"key": "net.peer.name",
+								"value": {
+									"stringValue": "ac-ipvprxe-shard-00-00.vrgxqxt.mongodb.net"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 27017
+								}
+							},
+							{
+								"key": "net.peer.ip",
+								"value": {
+									"stringValue": "13.64.96.159"
+								}
+							},
+							{
+								"key": "net.host.ip",
+								"value": {
+									"stringValue": "192.168.1.73"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"intValue": 49865
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "030ae53b28bbe7ad62a02c925791ea3b",
+						"spanId": "63f6c1c0fd540d41",
+						"name": "tcp.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636622278009300,
+						"endTimeUnixNano": 1666636622293988400,
+						"attributes": [
+							{
+								"key": "net.transport",
+								"value": {
+									"stringValue": "ip_tcp"
+								}
+							},
+							{
+								"key": "net.peer.name",
+								"value": {
+									"stringValue": "ac-ipvprxe-shard-00-02.vrgxqxt.mongodb.net"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 27017
+								}
+							},
+							{
+								"key": "net.peer.ip",
+								"value": {
+									"stringValue": "13.64.103.77"
+								}
+							},
+							{
+								"key": "net.host.ip",
+								"value": {
+									"stringValue": "192.168.1.73"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"intValue": 49866
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "164bcbb6c1180a358595bea502bfe28c",
+						"spanId": "0085d237cd9c8692",
+						"name": "tcp.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636622280010200,
+						"endTimeUnixNano": 1666636622294491000,
+						"attributes": [
+							{
+								"key": "net.transport",
+								"value": {
+									"stringValue": "ip_tcp"
+								}
+							},
+							{
+								"key": "net.peer.name",
+								"value": {
+									"stringValue": "ac-ipvprxe-shard-00-01.vrgxqxt.mongodb.net"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 27017
+								}
+							},
+							{
+								"key": "net.peer.ip",
+								"value": {
+									"stringValue": "13.64.102.141"
+								}
+							},
+							{
+								"key": "net.host.ip",
+								"value": {
+									"stringValue": "192.168.1.73"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"intValue": 49867
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "b6438ad81bc64e24292aa7099f8b6f5a",
+						"spanId": "6596d51fbff76ab2",
+						"name": "tls.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636622277051400,
+						"endTimeUnixNano": 1666636622329165300,
+						"attributes": [
+							{
+								"key": "tls.protocol",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.authorized",
+								"value": {
+									"stringValue": "true"
+								}
+							},
+							{
+								"key": "tls.cipher.name",
+								"value": {
+									"stringValue": "TLS_AES_128_GCM_SHA256"
+								}
+							},
+							{
+								"key": "tls.cipher.version",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.certificate.fingerprint",
+								"value": {
+									"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+								}
+							},
+							{
+								"key": "tls.certificate.serialNumber",
+								"value": {
+									"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+								}
+							},
+							{
+								"key": "tls.certificate.validFrom",
+								"value": {
+									"stringValue": "Sep 17 00:19:37 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.certificate.validTo",
+								"value": {
+									"stringValue": "Dec 16 00:19:36 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.alpnProtocol",
+								"value": {
+									"stringValue": ""
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "8648676c44bc94cabdc6fefe3e273d8e",
+						"spanId": "97d651cba7ba521a",
+						"name": "tls.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636622277011000,
+						"endTimeUnixNano": 1666636622331120400,
+						"attributes": [
+							{
+								"key": "tls.protocol",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.authorized",
+								"value": {
+									"stringValue": "true"
+								}
+							},
+							{
+								"key": "tls.cipher.name",
+								"value": {
+									"stringValue": "TLS_AES_128_GCM_SHA256"
+								}
+							},
+							{
+								"key": "tls.cipher.version",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.certificate.fingerprint",
+								"value": {
+									"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+								}
+							},
+							{
+								"key": "tls.certificate.serialNumber",
+								"value": {
+									"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+								}
+							},
+							{
+								"key": "tls.certificate.validFrom",
+								"value": {
+									"stringValue": "Sep 17 00:19:37 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.certificate.validTo",
+								"value": {
+									"stringValue": "Dec 16 00:19:36 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.alpnProtocol",
+								"value": {
+									"stringValue": ""
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "e8fe984f28dba7c69f4466be842e4e67",
+						"spanId": "ec284c17237d9f66",
+						"name": "tls.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636622280013800,
+						"endTimeUnixNano": 1666636622337566500,
+						"attributes": [
+							{
+								"key": "tls.protocol",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.authorized",
+								"value": {
+									"stringValue": "true"
+								}
+							},
+							{
+								"key": "tls.cipher.name",
+								"value": {
+									"stringValue": "TLS_AES_128_GCM_SHA256"
+								}
+							},
+							{
+								"key": "tls.cipher.version",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.certificate.fingerprint",
+								"value": {
+									"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+								}
+							},
+							{
+								"key": "tls.certificate.serialNumber",
+								"value": {
+									"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+								}
+							},
+							{
+								"key": "tls.certificate.validFrom",
+								"value": {
+									"stringValue": "Sep 17 00:19:37 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.certificate.validTo",
+								"value": {
+									"stringValue": "Dec 16 00:19:36 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.alpnProtocol",
+								"value": {
+									"stringValue": ""
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					}
+				]
+			}
+		]
+	}
+]
+[
+	{
+		"resource": {
+			"attributes": [
+				{
+					"key": "service.name",
+					"value": {
+						"stringValue": "unknown_service:node"
+					}
+				},
+				{
+					"key": "telemetry.sdk.language",
+					"value": {
+						"stringValue": "nodejs"
+					}
+				},
+				{
+					"key": "telemetry.sdk.name",
+					"value": {
+						"stringValue": "opentelemetry"
+					}
+				},
+				{
+					"key": "telemetry.sdk.version",
+					"value": {
+						"stringValue": "1.7.0"
+					}
+				},
+				{
+					"key": "process.pid",
+					"value": {
+						"intValue": 4339
+					}
+				},
+				{
+					"key": "process.executable.name",
+					"value": {
+						"stringValue": "node"
+					}
+				},
+				{
+					"key": "process.command",
+					"value": {
+						"stringValue": "/Users/jonathanle/Documents/Coding/Cloned Repositories/Recipes-WebApp/server/server.js"
+					}
+				},
+				{
+					"key": "process.command_line",
+					"value": {
+						"stringValue": "/opt/homebrew/Cellar/node/18.9.1/bin/node /Users/jonathanle/Documents/Coding/Cloned Repositories/Recipes-WebApp/server/server.js"
+					}
+				},
+				{
+					"key": "process.runtime.version",
+					"value": {
+						"stringValue": "18.9.1"
+					}
+				},
+				{
+					"key": "process.runtime.name",
+					"value": {
+						"stringValue": "nodejs"
+					}
+				},
+				{
+					"key": "process.runtime.description",
+					"value": {
+						"stringValue": "Node.js"
+					}
+				}
+			],
+			"droppedAttributesCount": 0
+		},
+		"scopeSpans": [
+			{
+				"scope": {
+					"name": "@opentelemetry/instrumentation-dns",
+					"version": "0.30.0"
+				},
+				"spans": [
+					{
+						"traceId": "a3add6e755f312dde4922825d9dd84d1",
+						"spanId": "48dcd20a98a6b169",
+						"name": "dns.lookup",
+						"kind": 3,
+						"startTimeUnixNano": 1666636744656011500,
+						"endTimeUnixNano": 1666636744687745300,
+						"attributes": [
+							{
+								"key": "peer.ipv4",
+								"value": {
+									"stringValue": "13.64.102.141"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "bd4d71f5503a816b7f7129243d5ff024",
+						"spanId": "1f0b232258afbacf",
+						"name": "dns.lookup",
+						"kind": 3,
+						"startTimeUnixNano": 1666636744656012000,
+						"endTimeUnixNano": 1666636744715192800,
+						"attributes": [
+							{
+								"key": "peer.ipv4",
+								"value": {
+									"stringValue": "13.64.103.77"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "e4a02130622cad5e074fb70377f4ee25",
+						"spanId": "5522140829a8d9aa",
+						"name": "dns.lookup",
+						"kind": 3,
+						"startTimeUnixNano": 1666636744655019300,
+						"endTimeUnixNano": 1666636744740256300,
+						"attributes": [
+							{
+								"key": "peer.ipv4",
+								"value": {
+									"stringValue": "13.64.96.159"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "0cb1224bfb2757e83d51bd9522a061c9",
+						"spanId": "2add086d03a68ca5",
+						"name": "dns.lookup",
+						"kind": 3,
+						"startTimeUnixNano": 1666636744757005800,
+						"endTimeUnixNano": 1666636744758316300,
+						"attributes": [
+							{
+								"key": "peer.ipv4",
+								"value": {
+									"stringValue": "13.64.102.141"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					}
+				]
+			},
+			{
+				"scope": {
+					"name": "@opentelemetry/instrumentation-net",
+					"version": "0.30.1"
+				},
+				"spans": [
+					{
+						"traceId": "676b201d5d6695cb292f5426649eb221",
+						"spanId": "b66862d8dfbcc6c7",
+						"name": "tcp.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636744655161900,
+						"endTimeUnixNano": 1666636744700992000,
+						"attributes": [
+							{
+								"key": "net.transport",
+								"value": {
+									"stringValue": "ip_tcp"
+								}
+							},
+							{
+								"key": "net.peer.name",
+								"value": {
+									"stringValue": "ac-ipvprxe-shard-00-01.vrgxqxt.mongodb.net"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 27017
+								}
+							},
+							{
+								"key": "net.peer.ip",
+								"value": {
+									"stringValue": "13.64.102.141"
+								}
+							},
+							{
+								"key": "net.host.ip",
+								"value": {
+									"stringValue": "192.168.1.73"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"intValue": 49877
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "76ee18379dc05f5bae55948a201b2227",
+						"spanId": "2ba9eb6746a977a3",
+						"name": "tcp.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636744656088800,
+						"endTimeUnixNano": 1666636744727671600,
+						"attributes": [
+							{
+								"key": "net.transport",
+								"value": {
+									"stringValue": "ip_tcp"
+								}
+							},
+							{
+								"key": "net.peer.name",
+								"value": {
+									"stringValue": "ac-ipvprxe-shard-00-02.vrgxqxt.mongodb.net"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 27017
+								}
+							},
+							{
+								"key": "net.peer.ip",
+								"value": {
+									"stringValue": "13.64.103.77"
+								}
+							},
+							{
+								"key": "net.host.ip",
+								"value": {
+									"stringValue": "192.168.1.73"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"intValue": 49878
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "7afb53061cb1683ed0306d6c0a7aab8d",
+						"spanId": "80eddbe0793c131c",
+						"name": "tls.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636744655018000,
+						"endTimeUnixNano": 1666636744737154000,
+						"attributes": [
+							{
+								"key": "tls.protocol",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.authorized",
+								"value": {
+									"stringValue": "true"
+								}
+							},
+							{
+								"key": "tls.cipher.name",
+								"value": {
+									"stringValue": "TLS_AES_128_GCM_SHA256"
+								}
+							},
+							{
+								"key": "tls.cipher.version",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.certificate.fingerprint",
+								"value": {
+									"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+								}
+							},
+							{
+								"key": "tls.certificate.serialNumber",
+								"value": {
+									"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+								}
+							},
+							{
+								"key": "tls.certificate.validFrom",
+								"value": {
+									"stringValue": "Sep 17 00:19:37 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.certificate.validTo",
+								"value": {
+									"stringValue": "Dec 16 00:19:36 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.alpnProtocol",
+								"value": {
+									"stringValue": ""
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "8166190987dfdd4bf88bbdfca9c69fad",
+						"spanId": "a69c4030a3341065",
+						"name": "tcp.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636744654036500,
+						"endTimeUnixNano": 1666636744753446000,
+						"attributes": [
+							{
+								"key": "net.transport",
+								"value": {
+									"stringValue": "ip_tcp"
+								}
+							},
+							{
+								"key": "net.peer.name",
+								"value": {
+									"stringValue": "ac-ipvprxe-shard-00-00.vrgxqxt.mongodb.net"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 27017
+								}
+							},
+							{
+								"key": "net.peer.ip",
+								"value": {
+									"stringValue": "13.64.96.159"
+								}
+							},
+							{
+								"key": "net.host.ip",
+								"value": {
+									"stringValue": "192.168.1.73"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"intValue": 49879
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "77210412a405c909248e39efbc80e478",
+						"spanId": "29992a2957ba394f",
+						"name": "tls.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636744656014800,
+						"endTimeUnixNano": 1666636744761119500,
+						"attributes": [
+							{
+								"key": "tls.protocol",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.authorized",
+								"value": {
+									"stringValue": "true"
+								}
+							},
+							{
+								"key": "tls.cipher.name",
+								"value": {
+									"stringValue": "TLS_AES_128_GCM_SHA256"
+								}
+							},
+							{
+								"key": "tls.cipher.version",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.certificate.fingerprint",
+								"value": {
+									"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+								}
+							},
+							{
+								"key": "tls.certificate.serialNumber",
+								"value": {
+									"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+								}
+							},
+							{
+								"key": "tls.certificate.validFrom",
+								"value": {
+									"stringValue": "Sep 17 00:19:37 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.certificate.validTo",
+								"value": {
+									"stringValue": "Dec 16 00:19:36 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.alpnProtocol",
+								"value": {
+									"stringValue": ""
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "f726a14a85d89a1c678d14ee7b9c1d33",
+						"spanId": "480684601a650c3e",
+						"name": "tcp.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636744757085700,
+						"endTimeUnixNano": 1666636744772532700,
+						"attributes": [
+							{
+								"key": "net.transport",
+								"value": {
+									"stringValue": "ip_tcp"
+								}
+							},
+							{
+								"key": "net.peer.name",
+								"value": {
+									"stringValue": "ac-ipvprxe-shard-00-01.vrgxqxt.mongodb.net"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 27017
+								}
+							},
+							{
+								"key": "net.peer.ip",
+								"value": {
+									"stringValue": "13.64.102.141"
+								}
+							},
+							{
+								"key": "net.host.ip",
+								"value": {
+									"stringValue": "192.168.1.73"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"intValue": 49880
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "0aa25b77836def1789fae40037170c7b",
+						"spanId": "b373b37f024ae592",
+						"name": "tls.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636744653201000,
+						"endTimeUnixNano": 1666636744787917000,
+						"attributes": [
+							{
+								"key": "tls.protocol",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.authorized",
+								"value": {
+									"stringValue": "true"
+								}
+							},
+							{
+								"key": "tls.cipher.name",
+								"value": {
+									"stringValue": "TLS_AES_128_GCM_SHA256"
+								}
+							},
+							{
+								"key": "tls.cipher.version",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.certificate.fingerprint",
+								"value": {
+									"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+								}
+							},
+							{
+								"key": "tls.certificate.serialNumber",
+								"value": {
+									"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+								}
+							},
+							{
+								"key": "tls.certificate.validFrom",
+								"value": {
+									"stringValue": "Sep 17 00:19:37 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.certificate.validTo",
+								"value": {
+									"stringValue": "Dec 16 00:19:36 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.alpnProtocol",
+								"value": {
+									"stringValue": ""
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "9d3f79f714358380354849784d7db4d8",
+						"spanId": "2fb7e0db490112b7",
+						"name": "tls.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636744757023200,
+						"endTimeUnixNano": 1666636744809403000,
+						"attributes": [
+							{
+								"key": "tls.protocol",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.authorized",
+								"value": {
+									"stringValue": "true"
+								}
+							},
+							{
+								"key": "tls.cipher.name",
+								"value": {
+									"stringValue": "TLS_AES_128_GCM_SHA256"
+								}
+							},
+							{
+								"key": "tls.cipher.version",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.certificate.fingerprint",
+								"value": {
+									"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+								}
+							},
+							{
+								"key": "tls.certificate.serialNumber",
+								"value": {
+									"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+								}
+							},
+							{
+								"key": "tls.certificate.validFrom",
+								"value": {
+									"stringValue": "Sep 17 00:19:37 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.certificate.validTo",
+								"value": {
+									"stringValue": "Dec 16 00:19:36 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.alpnProtocol",
+								"value": {
+									"stringValue": ""
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					}
+				]
+			}
+		]
+	}
+]
+[
+	{
+		"resource": {
+			"attributes": [
+				{
+					"key": "service.name",
+					"value": {
+						"stringValue": "unknown_service:node"
+					}
+				},
+				{
+					"key": "telemetry.sdk.language",
+					"value": {
+						"stringValue": "nodejs"
+					}
+				},
+				{
+					"key": "telemetry.sdk.name",
+					"value": {
+						"stringValue": "opentelemetry"
+					}
+				},
+				{
+					"key": "telemetry.sdk.version",
+					"value": {
+						"stringValue": "1.7.0"
+					}
+				},
+				{
+					"key": "process.pid",
+					"value": {
+						"intValue": 4339
+					}
+				},
+				{
+					"key": "process.executable.name",
+					"value": {
+						"stringValue": "node"
+					}
+				},
+				{
+					"key": "process.command",
+					"value": {
+						"stringValue": "/Users/jonathanle/Documents/Coding/Cloned Repositories/Recipes-WebApp/server/server.js"
+					}
+				},
+				{
+					"key": "process.command_line",
+					"value": {
+						"stringValue": "/opt/homebrew/Cellar/node/18.9.1/bin/node /Users/jonathanle/Documents/Coding/Cloned Repositories/Recipes-WebApp/server/server.js"
+					}
+				},
+				{
+					"key": "process.runtime.version",
+					"value": {
+						"stringValue": "18.9.1"
+					}
+				},
+				{
+					"key": "process.runtime.name",
+					"value": {
+						"stringValue": "nodejs"
+					}
+				},
+				{
+					"key": "process.runtime.description",
+					"value": {
+						"stringValue": "Node.js"
+					}
+				}
+			],
+			"droppedAttributesCount": 0
+		},
+		"scopeSpans": [
+			{
+				"scope": {
+					"name": "@opentelemetry/instrumentation-dns",
+					"version": "0.30.0"
+				},
+				"spans": [
+					{
+						"traceId": "f30b1d32013345c3f1ba8607383b8b91",
+						"spanId": "79e8f4a213ef00be",
+						"name": "dns.lookup",
+						"kind": 3,
+						"startTimeUnixNano": 1666636755261030100,
+						"endTimeUnixNano": 1666636755263170000,
+						"attributes": [
+							{
+								"key": "peer.ipv4",
+								"value": {
+									"stringValue": "13.64.102.141"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "8842214f697860c041e1b341bd74152b",
+						"spanId": "ae9b7fdf812b148d",
+						"name": "dns.lookup",
+						"kind": 3,
+						"startTimeUnixNano": 1666636755283011000,
+						"endTimeUnixNano": 1666636755284732200,
+						"attributes": [
+							{
+								"key": "peer.ipv4",
+								"value": {
+									"stringValue": "13.64.103.77"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "7b79046b1c5132fd82e1c9cb30a2ab5c",
+						"spanId": "575acf2519b5be99",
+						"name": "dns.lookup",
+						"kind": 3,
+						"startTimeUnixNano": 1666636755308012300,
+						"endTimeUnixNano": 1666636755310276400,
+						"attributes": [
+							{
+								"key": "peer.ipv4",
+								"value": {
+									"stringValue": "13.64.96.159"
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					}
+				]
+			},
+			{
+				"scope": {
+					"name": "@opentelemetry/instrumentation-net",
+					"version": "0.30.1"
+				},
+				"spans": [
+					{
+						"traceId": "be3486a088a7739c1def085635133540",
+						"spanId": "16bc3a41f8ea0f04",
+						"name": "tcp.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636755261050400,
+						"endTimeUnixNano": 1666636755276897800,
+						"attributes": [
+							{
+								"key": "net.transport",
+								"value": {
+									"stringValue": "ip_tcp"
+								}
+							},
+							{
+								"key": "net.peer.name",
+								"value": {
+									"stringValue": "ac-ipvprxe-shard-00-01.vrgxqxt.mongodb.net"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 27017
+								}
+							},
+							{
+								"key": "net.peer.ip",
+								"value": {
+									"stringValue": "13.64.102.141"
+								}
+							},
+							{
+								"key": "net.host.ip",
+								"value": {
+									"stringValue": "192.168.1.73"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"intValue": 49884
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "9827ae67b6e090122844c20d6939d5ef",
+						"spanId": "8c7c6de1278ccbba",
+						"name": "tcp.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636755283018200,
+						"endTimeUnixNano": 1666636755297599700,
+						"attributes": [
+							{
+								"key": "net.transport",
+								"value": {
+									"stringValue": "ip_tcp"
+								}
+							},
+							{
+								"key": "net.peer.name",
+								"value": {
+									"stringValue": "ac-ipvprxe-shard-00-02.vrgxqxt.mongodb.net"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 27017
+								}
+							},
+							{
+								"key": "net.peer.ip",
+								"value": {
+									"stringValue": "13.64.103.77"
+								}
+							},
+							{
+								"key": "net.host.ip",
+								"value": {
+									"stringValue": "192.168.1.73"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"intValue": 49885
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "68e11c25015fe3d65a72b8676c08bc6e",
+						"spanId": "f8c6efce829c68b1",
+						"name": "tls.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636755261128400,
+						"endTimeUnixNano": 1666636755320095700,
+						"attributes": [
+							{
+								"key": "tls.protocol",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.authorized",
+								"value": {
+									"stringValue": "true"
+								}
+							},
+							{
+								"key": "tls.cipher.name",
+								"value": {
+									"stringValue": "TLS_AES_128_GCM_SHA256"
+								}
+							},
+							{
+								"key": "tls.cipher.version",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.certificate.fingerprint",
+								"value": {
+									"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+								}
+							},
+							{
+								"key": "tls.certificate.serialNumber",
+								"value": {
+									"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+								}
+							},
+							{
+								"key": "tls.certificate.validFrom",
+								"value": {
+									"stringValue": "Sep 17 00:19:37 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.certificate.validTo",
+								"value": {
+									"stringValue": "Dec 16 00:19:36 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.alpnProtocol",
+								"value": {
+									"stringValue": ""
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "1cda63b7a4e7bc84c7e9a0ff0239b2c2",
+						"spanId": "3d28f936fa7417fd",
+						"name": "tcp.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636755308019500,
+						"endTimeUnixNano": 1666636755323168300,
+						"attributes": [
+							{
+								"key": "net.transport",
+								"value": {
+									"stringValue": "ip_tcp"
+								}
+							},
+							{
+								"key": "net.peer.name",
+								"value": {
+									"stringValue": "ac-ipvprxe-shard-00-00.vrgxqxt.mongodb.net"
+								}
+							},
+							{
+								"key": "net.peer.port",
+								"value": {
+									"intValue": 27017
+								}
+							},
+							{
+								"key": "net.peer.ip",
+								"value": {
+									"stringValue": "13.64.96.159"
+								}
+							},
+							{
+								"key": "net.host.ip",
+								"value": {
+									"stringValue": "192.168.1.73"
+								}
+							},
+							{
+								"key": "net.host.port",
+								"value": {
+									"intValue": 49886
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "606bb92c3a4e0b100a7d26a076c7128d",
+						"spanId": "245fd9dbd23b3b9c",
+						"name": "tls.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636755283057000,
+						"endTimeUnixNano": 1666636755339944000,
+						"attributes": [
+							{
+								"key": "tls.protocol",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.authorized",
+								"value": {
+									"stringValue": "true"
+								}
+							},
+							{
+								"key": "tls.cipher.name",
+								"value": {
+									"stringValue": "TLS_AES_128_GCM_SHA256"
+								}
+							},
+							{
+								"key": "tls.cipher.version",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.certificate.fingerprint",
+								"value": {
+									"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+								}
+							},
+							{
+								"key": "tls.certificate.serialNumber",
+								"value": {
+									"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+								}
+							},
+							{
+								"key": "tls.certificate.validFrom",
+								"value": {
+									"stringValue": "Sep 17 00:19:37 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.certificate.validTo",
+								"value": {
+									"stringValue": "Dec 16 00:19:36 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.alpnProtocol",
+								"value": {
+									"stringValue": ""
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					},
+					{
+						"traceId": "980864893c74eaea9fdfbc7739bf7334",
+						"spanId": "0d83c9e2d14852c3",
+						"name": "tls.connect",
+						"kind": 1,
+						"startTimeUnixNano": 1666636755308073700,
+						"endTimeUnixNano": 1666636755359283000,
+						"attributes": [
+							{
+								"key": "tls.protocol",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.authorized",
+								"value": {
+									"stringValue": "true"
+								}
+							},
+							{
+								"key": "tls.cipher.name",
+								"value": {
+									"stringValue": "TLS_AES_128_GCM_SHA256"
+								}
+							},
+							{
+								"key": "tls.cipher.version",
+								"value": {
+									"stringValue": "TLSv1.3"
+								}
+							},
+							{
+								"key": "tls.certificate.fingerprint",
+								"value": {
+									"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+								}
+							},
+							{
+								"key": "tls.certificate.serialNumber",
+								"value": {
+									"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+								}
+							},
+							{
+								"key": "tls.certificate.validFrom",
+								"value": {
+									"stringValue": "Sep 17 00:19:37 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.certificate.validTo",
+								"value": {
+									"stringValue": "Dec 16 00:19:36 2022 GMT"
+								}
+							},
+							{
+								"key": "tls.alpnProtocol",
+								"value": {
+									"stringValue": ""
+								}
+							}
+						],
+						"droppedAttributesCount": 0,
+						"events": [],
+						"droppedEventsCount": 0,
+						"status": {
+							"code": 0
+						},
+						"links": [],
+						"droppedLinksCount": 0
+					}
+				]
+			}
+		]
+	}
+]
