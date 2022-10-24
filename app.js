@@ -5,7 +5,7 @@ const fs = require('fs');
 const models = require ('./models.js');
 const serverController = require ('./controller/servercontroller.js');
 
-const PORT = process.env.PORT || "4000";
+const PORT = process.env.PORT || "4318";
 const app = express();
 
 app.use(express.json());
