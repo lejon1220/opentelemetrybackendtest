@@ -2,7 +2,8 @@
 const path = require('path');
 const express = require("express");
 const fs = require('fs');
-
+const models = require ('./models.js');
+const serverController = require ('./controller/servercontroller.js');
 
 const PORT = process.env.PORT || "4000";
 const app = express();
@@ -21,12 +22,22 @@ app.get("/redirected", (req, res) => {
   res.send("redirect successful");
 })
 
+/*
+//this will write the trace data to testData.json
 app.use("/v1/traces", (req, res) => {
 	console.log(req.body);
 	let data = req.body.resourceSpans;
 	fs.appendFileSync(path.resolve(__dirname, './testData.json'),
 	JSON.stringify(data) + '\n');
 	res.status(200).send("v1/traces endpoint")
+})
+*/
+
+
+//this will send the trace data to middleware that will write the data to a db
+app.use("/v1/traces", serverController.writeToDB, (req, res) => {
+	console.log(res.locals.trace);
+	res.status(200).send("successful add")
 })
 
 
