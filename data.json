@@ -1,2358 +1,1241 @@
 {
-  traceId: 'e62ff4496fd998e81ec63d2ea12adba0',
-  parentId: undefined,
-  name: 'dns.lookup',
-  id: '3f51425ffdba26d7',
-  kind: 2,
-  timestamp: 1666757319375123,
-  duration: 56800,
-  attributes: { 'peer.ipv4': '13.64.96.159' },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'e63872f89701ed3feed4cd3f99f36bc0',
-  parentId: undefined,
-  name: 'dns.lookup',
-  id: '74c8ec03eec7eb31',
-  kind: 2,
-  timestamp: 1666757319374078,
-  duration: 73122,
-  attributes: { 'peer.ipv4': '13.64.102.141' },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '105201f4d5f0455a07c00f84d0fbba05',
-  parentId: undefined,
-  name: 'tls.connect',
-  id: '82bcffeb68e9f8e7',
-  kind: 0,
-  timestamp: 1666757319375032,
-  duration: 165021,
-  attributes: {
-    'tls.protocol': 'TLSv1.3',
-    'tls.authorized': 'true',
-    'tls.cipher.name': 'TLS_AES_128_GCM_SHA256',
-    'tls.cipher.version': 'TLSv1.3',
-    'tls.certificate.fingerprint': 'EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61',
-    'tls.certificate.serialNumber': '03C049C841F25AF43043D3CDAF3D2E9A3ABB',
-    'tls.certificate.validFrom': 'Sep 17 00:19:37 2022 GMT',
-    'tls.certificate.validTo': 'Dec 16 00:19:36 2022 GMT',
-    'tls.alpnProtocol': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '09e2f119e87ec2ea688f5112b2426265',
-  parentId: undefined,
-  name: 'tls.connect',
-  id: '11c1c54494ba523d',
-  kind: 0,
-  timestamp: 1666757319373252,
-  duration: 173082,
-  attributes: {
-    'tls.protocol': 'TLSv1.3',
-    'tls.authorized': 'true',
-    'tls.cipher.name': 'TLS_AES_128_GCM_SHA256',
-    'tls.cipher.version': 'TLSv1.3',
-    'tls.certificate.fingerprint': 'EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61',
-    'tls.certificate.serialNumber': '03C049C841F25AF43043D3CDAF3D2E9A3ABB',
-    'tls.certificate.validFrom': 'Sep 17 00:19:37 2022 GMT',
-    'tls.certificate.validTo': 'Dec 16 00:19:36 2022 GMT',
-    'tls.alpnProtocol': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '9eabe4eb8acec59727d40a6719adc169',
-  parentId: undefined,
-  name: 'dns.lookup',
-  id: '34f13205df946490',
-  kind: 2,
-  timestamp: 1666757330120043,
-  duration: 5809,
-  attributes: { 'peer.ipv4': '13.64.103.77' },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'c52757ff64ec256b560b95efc191c3e6',
-  parentId: undefined,
-  name: 'tcp.connect',
-  id: '2ea639ba14344d98',
-  kind: 0,
-  timestamp: 1666757330109185,
-  duration: 24418,
-  attributes: {
-    'net.transport': 'ip_tcp',
-    'net.peer.name': 'ac-ipvprxe-shard-00-00.vrgxqxt.mongodb.net',
-    'net.peer.port': 27017,
-    'net.peer.ip': '13.64.96.159',
-    'net.host.ip': '172.17.0.5',
-    'net.host.port': 51140
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'f6337cd4fa824c1f954d3b33a301b399',
-  parentId: undefined,
-  name: 'tcp.connect',
-  id: '9f6557e90326e87a',
-  kind: 0,
-  timestamp: 1666757330119049,
-  duration: 19151,
-  attributes: {
-    'net.transport': 'ip_tcp',
-    'net.peer.name': 'ac-ipvprxe-shard-00-02.vrgxqxt.mongodb.net',
-    'net.peer.port': 27017,
-    'net.peer.ip': '13.64.103.77',
-    'net.host.ip': '172.17.0.5',
-    'net.host.port': 55574
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'cad6207f795966c230fa6906950c27b9',
-  parentId: undefined,
-  name: 'tls.connect',
-  id: '27e3d3cfd2adbb11',
-  kind: 0,
-  timestamp: 1666757330118055,
-  duration: 56534,
-  attributes: {
-    'tls.protocol': 'TLSv1.3',
-    'tls.authorized': 'true',
-    'tls.cipher.name': 'TLS_AES_128_GCM_SHA256',
-    'tls.cipher.version': 'TLSv1.3',
-    'tls.certificate.fingerprint': 'EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61',
-    'tls.certificate.serialNumber': '03C049C841F25AF43043D3CDAF3D2E9A3ABB',
-    'tls.certificate.validFrom': 'Sep 17 00:19:37 2022 GMT',
-    'tls.certificate.validTo': 'Dec 16 00:19:36 2022 GMT',
-    'tls.alpnProtocol': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'dc30894459d420ce612165c9f25d2395',
-  parentId: '9cc0518de2daf762',
-  name: 'middleware - query',
-  id: 'a7952869c6eed526',
-  kind: 0,
-  timestamp: 1666757370634410,
-  duration: 118,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'dc30894459d420ce612165c9f25d2395',
-  parentId: '9cc0518de2daf762',
-  name: 'middleware - expressInit',
-  id: '7af1f43785f9cc73',
-  kind: 0,
-  timestamp: 1666757370634719,
-  duration: 266,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'dc30894459d420ce612165c9f25d2395',
-  parentId: '9cc0518de2daf762',
-  name: 'middleware - jsonParser',
-  id: 'bbc4cc895b204cca',
-  kind: 0,
-  timestamp: 1666757370635216,
-  duration: 56,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'dc30894459d420ce612165c9f25d2395',
-  parentId: '9cc0518de2daf762',
-  name: 'middleware - urlencodedParser',
-  id: 'e9be6812c45a50ed',
-  kind: 0,
-  timestamp: 1666757370635871,
-  duration: 39,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'dc30894459d420ce612165c9f25d2395',
-  parentId: '9cc0518de2daf762',
-  name: 'middleware - serveStatic',
-  id: '0046de5bfb20447e',
-  kind: 0,
-  timestamp: 1666757370637317,
-  duration: 10803,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'dc30894459d420ce612165c9f25d2395',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: '9cc0518de2daf762',
-  kind: 1,
-  timestamp: 1666757370633194,
-  duration: 17684,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/avocado%20toast.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/avocado%20toast.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43832,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'dc30894459d420ce612165c9f25d2395',
-  parentId: '9cc0518de2daf762',
-  name: 'middleware - <anonymous>',
-  id: 'ead859cb7c9ec582',
-  kind: 0,
-  timestamp: 1666757370650070,
-  duration: 950,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'b9a18faec46257b36189ca38255f7701',
-  parentId: 'cad27b6ca4256293',
-  name: 'middleware - query',
-  id: 'acccb3d0aeb60e4e',
-  kind: 0,
-  timestamp: 1666757370661176,
-  duration: 39,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'b9a18faec46257b36189ca38255f7701',
-  parentId: 'cad27b6ca4256293',
-  name: 'middleware - expressInit',
-  id: '94b1125c696abec9',
-  kind: 0,
-  timestamp: 1666757370661341,
-  duration: 79,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'b9a18faec46257b36189ca38255f7701',
-  parentId: 'cad27b6ca4256293',
-  name: 'middleware - jsonParser',
-  id: 'ced28866cae3a4da',
-  kind: 0,
-  timestamp: 1666757370661621,
-  duration: 761,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'b9a18faec46257b36189ca38255f7701',
-  parentId: 'cad27b6ca4256293',
-  name: 'middleware - urlencodedParser',
-  id: '1cc3a4317f2ceb52',
-  kind: 0,
-  timestamp: 1666757370662459,
-  duration: 29,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'ca2a14840baffc18969c1aae44ccc9b3',
-  parentId: '458501a1cdcad9f7',
-  name: 'middleware - query',
-  id: '6af2d971cc612fc4',
-  kind: 0,
-  timestamp: 1666757370672620,
-  duration: 90,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'ca2a14840baffc18969c1aae44ccc9b3',
-  parentId: '458501a1cdcad9f7',
-  name: 'middleware - expressInit',
-  id: 'f06938ad84730f70',
-  kind: 0,
-  timestamp: 1666757370672792,
-  duration: 53,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'ca2a14840baffc18969c1aae44ccc9b3',
-  parentId: '458501a1cdcad9f7',
-  name: 'middleware - jsonParser',
-  id: 'f90b0b1acca56163',
-  kind: 0,
-  timestamp: 1666757370672888,
-  duration: 55,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'ca2a14840baffc18969c1aae44ccc9b3',
-  parentId: '458501a1cdcad9f7',
-  name: 'middleware - urlencodedParser',
-  id: '6c61a6b3e3014487',
-  kind: 0,
-  timestamp: 1666757370672982,
-  duration: 22,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'ca2a14840baffc18969c1aae44ccc9b3',
-  parentId: '458501a1cdcad9f7',
-  name: 'middleware - serveStatic',
-  id: '09fe670dc266f651',
-  kind: 0,
-  timestamp: 1666757370673045,
-  duration: 5653,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'ca2a14840baffc18969c1aae44ccc9b3',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: '458501a1cdcad9f7',
-  kind: 1,
-  timestamp: 1666757370672072,
-  duration: 7362,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/Toast.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/Toast.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43832,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'ca2a14840baffc18969c1aae44ccc9b3',
-  parentId: '458501a1cdcad9f7',
-  name: 'middleware - <anonymous>',
-  id: 'd6c72aa913b1c313',
-  kind: 0,
-  timestamp: 1666757370678799,
-  duration: 718,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'b9a18faec46257b36189ca38255f7701',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: 'cad27b6ca4256293',
-  kind: 1,
-  timestamp: 1666757370661032,
-  duration: 29241,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/Rib%20Eye%20Roast.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/Rib%20Eye%20Roast.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43840,
-    'http.status_code': 200,
-    'http.status_text': 'OK',
-    'http.route': '/assets'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'b9a18faec46257b36189ca38255f7701',
-  parentId: 'cad27b6ca4256293',
-  name: 'middleware - serveStatic',
-  id: 'e6970b0a738c57d4',
-  kind: 0,
-  timestamp: 1666757370662530,
-  duration: 28061,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '89a6582935ff19dd3d3c6702a85df941',
-  parentId: 'cfd1d45752ef77e0',
-  name: 'middleware - query',
-  id: 'df2ce694b2759f8a',
-  kind: 0,
-  timestamp: 1666757370725604,
-  duration: 69,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '89a6582935ff19dd3d3c6702a85df941',
-  parentId: 'cfd1d45752ef77e0',
-  name: 'middleware - expressInit',
-  id: '4129925878d27b17',
-  kind: 0,
-  timestamp: 1666757370725788,
-  duration: 46,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '89a6582935ff19dd3d3c6702a85df941',
-  parentId: 'cfd1d45752ef77e0',
-  name: 'middleware - jsonParser',
-  id: '8608037f007d37fd',
-  kind: 0,
-  timestamp: 1666757370725864,
-  duration: 29,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '89a6582935ff19dd3d3c6702a85df941',
-  parentId: 'cfd1d45752ef77e0',
-  name: 'middleware - urlencodedParser',
-  id: '2174b94e4662b8ce',
-  kind: 0,
-  timestamp: 1666757370725919,
-  duration: 17,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '89a6582935ff19dd3d3c6702a85df941',
-  parentId: 'cfd1d45752ef77e0',
-  name: 'middleware - serveStatic',
-  id: 'afdc8b914af1a346',
-  kind: 0,
-  timestamp: 1666757370725968,
-  duration: 14387,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '89a6582935ff19dd3d3c6702a85df941',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: 'cfd1d45752ef77e0',
-  kind: 1,
-  timestamp: 1666757370725058,
-  duration: 15946,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/hhhh.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/hhhh.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43834,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '89a6582935ff19dd3d3c6702a85df941',
-  parentId: 'cfd1d45752ef77e0',
-  name: 'middleware - <anonymous>',
-  id: 'f588782693912294',
-  kind: 0,
-  timestamp: 1666757370740447,
-  duration: 656,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'c9bad825089976890721e98cd3834bb8',
-  parentId: '5e99fb9985e8f750',
-  name: 'middleware - query',
-  id: '10ee81880649418a',
-  kind: 0,
-  timestamp: 1666757370754944,
-  duration: 71,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'c9bad825089976890721e98cd3834bb8',
-  parentId: '5e99fb9985e8f750',
-  name: 'middleware - expressInit',
-  id: '5a14549906598eb4',
-  kind: 0,
-  timestamp: 1666757370755073,
-  duration: 55,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'c9bad825089976890721e98cd3834bb8',
-  parentId: '5e99fb9985e8f750',
-  name: 'middleware - jsonParser',
-  id: 'd9356d0a813f82bc',
-  kind: 0,
-  timestamp: 1666757370755155,
-  duration: 31,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'c9bad825089976890721e98cd3834bb8',
-  parentId: '5e99fb9985e8f750',
-  name: 'middleware - urlencodedParser',
-  id: '140fc09831809349',
-  kind: 0,
-  timestamp: 1666757370755227,
-  duration: 28,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'c9bad825089976890721e98cd3834bb8',
-  parentId: '5e99fb9985e8f750',
-  name: 'middleware - serveStatic',
-  id: 'b4e34d2221459f48',
-  kind: 0,
-  timestamp: 1666757370755301,
-  duration: 790,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'c9bad825089976890721e98cd3834bb8',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: '5e99fb9985e8f750',
-  kind: 1,
-  timestamp: 1666757370754057,
-  duration: 3644,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/jjj.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/jjj.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43832,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'c9bad825089976890721e98cd3834bb8',
-  parentId: '5e99fb9985e8f750',
-  name: 'middleware - <anonymous>',
-  id: 'cb7ac8bdc34f1e52',
-  kind: 0,
-  timestamp: 1666757370756240,
-  duration: 1663,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '29e9d4aea3af2728a3f31e53158ab42b',
-  parentId: '60d02cd11e69317b',
-  name: 'middleware - query',
-  id: 'bbcbd21bc2e0ead9',
-  kind: 0,
-  timestamp: 1666757370785759,
-  duration: 189,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '29e9d4aea3af2728a3f31e53158ab42b',
-  parentId: '60d02cd11e69317b',
-  name: 'middleware - expressInit',
-  id: '5a62b846931f1c17',
-  kind: 0,
-  timestamp: 1666757370786028,
-  duration: 123,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '29e9d4aea3af2728a3f31e53158ab42b',
-  parentId: '60d02cd11e69317b',
-  name: 'middleware - jsonParser',
-  id: '636b2f5428b9dbb1',
-  kind: 0,
-  timestamp: 1666757370786351,
-  duration: 102,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '29e9d4aea3af2728a3f31e53158ab42b',
-  parentId: '60d02cd11e69317b',
-  name: 'middleware - urlencodedParser',
-  id: '0a5a5483da81d1f0',
-  kind: 0,
-  timestamp: 1666757370786531,
-  duration: 47,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'fc3fd2911603f613d6fde6792accbfd4',
-  parentId: '576d8cc2e3f0a7a6',
-  name: 'middleware - query',
-  id: '2c53a7a0164fac21',
-  kind: 0,
-  timestamp: 1666757370788626,
-  duration: 74,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'fc3fd2911603f613d6fde6792accbfd4',
-  parentId: '576d8cc2e3f0a7a6',
-  name: 'middleware - expressInit',
-  id: '65adb6bfe654df2b',
-  kind: 0,
-  timestamp: 1666757370788817,
-  duration: 123,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'fc3fd2911603f613d6fde6792accbfd4',
-  parentId: '576d8cc2e3f0a7a6',
-  name: 'middleware - jsonParser',
-  id: '4c19bb9f3cebc92d',
-  kind: 0,
-  timestamp: 1666757370789084,
-  duration: 106,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'fc3fd2911603f613d6fde6792accbfd4',
-  parentId: '576d8cc2e3f0a7a6',
-  name: 'middleware - urlencodedParser',
-  id: 'b7710f88b62067f5',
-  kind: 0,
-  timestamp: 1666757370789272,
-  duration: 225,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '3f63af73abb52ecd4a78c7bde838e013',
-  parentId: '748f5d6cf22d6b0a',
-  name: 'middleware - query',
-  id: '8397b243ce6b054b',
-  kind: 0,
-  timestamp: 1666757370791401,
-  duration: 41,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '3f63af73abb52ecd4a78c7bde838e013',
-  parentId: '748f5d6cf22d6b0a',
-  name: 'middleware - expressInit',
-  id: '48c8a60a32c72168',
-  kind: 0,
-  timestamp: 1666757370791484,
-  duration: 54,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '3f63af73abb52ecd4a78c7bde838e013',
-  parentId: '748f5d6cf22d6b0a',
-  name: 'middleware - jsonParser',
-  id: '337cb29212cc0626',
-  kind: 0,
-  timestamp: 1666757370791578,
-  duration: 37,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '3f63af73abb52ecd4a78c7bde838e013',
-  parentId: '748f5d6cf22d6b0a',
-  name: 'middleware - urlencodedParser',
-  id: '91d523601cfda93f',
-  kind: 0,
-  timestamp: 1666757370791659,
-  duration: 24,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '2853ec39ed0e48cd2824e5daf71d2a64',
-  parentId: '9723e58ba3a699f2',
-  name: 'middleware - query',
-  id: 'ac6544e6a8a4efe7',
-  kind: 0,
-  timestamp: 1666757370793168,
-  duration: 34,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '2853ec39ed0e48cd2824e5daf71d2a64',
-  parentId: '9723e58ba3a699f2',
-  name: 'middleware - expressInit',
-  id: '25572e43bec55c66',
-  kind: 0,
-  timestamp: 1666757370793240,
-  duration: 36,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '2853ec39ed0e48cd2824e5daf71d2a64',
-  parentId: '9723e58ba3a699f2',
-  name: 'middleware - jsonParser',
-  id: 'dc9df88e4f0e4a5a',
-  kind: 0,
-  timestamp: 1666757370793297,
-  duration: 36,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '2853ec39ed0e48cd2824e5daf71d2a64',
-  parentId: '9723e58ba3a699f2',
-  name: 'middleware - urlencodedParser',
-  id: '12da690215b7a090',
-  kind: 0,
-  timestamp: 1666757370793378,
-  duration: 30,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '29e9d4aea3af2728a3f31e53158ab42b',
-  parentId: '60d02cd11e69317b',
-  name: 'middleware - serveStatic',
-  id: '5183970267965dd9',
-  kind: 0,
-  timestamp: 1666757370786896,
-  duration: 8032,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '29e9d4aea3af2728a3f31e53158ab42b',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: '60d02cd11e69317b',
-  kind: 1,
-  timestamp: 1666757370785067,
-  duration: 10549,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/fake%20recipe.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/fake%20recipe.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43844,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '29e9d4aea3af2728a3f31e53158ab42b',
-  parentId: '60d02cd11e69317b',
-  name: 'middleware - <anonymous>',
-  id: 'd843325e944c8c25',
-  kind: 0,
-  timestamp: 1666757370794995,
-  duration: 778,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'fc3fd2911603f613d6fde6792accbfd4',
-  parentId: '576d8cc2e3f0a7a6',
-  name: 'middleware - serveStatic',
-  id: '2c350a5a2b6ad362',
-  kind: 0,
-  timestamp: 1666757370789631,
-  duration: 5972,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'fc3fd2911603f613d6fde6792accbfd4',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: '576d8cc2e3f0a7a6',
-  kind: 1,
-  timestamp: 1666757370788055,
-  duration: 8613,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/test2.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/test2.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43842,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'fc3fd2911603f613d6fde6792accbfd4',
-  parentId: '576d8cc2e3f0a7a6',
-  name: 'middleware - <anonymous>',
-  id: '50d60e392b2dc5df',
-  kind: 0,
-  timestamp: 1666757370795655,
-  duration: 1215,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '3f63af73abb52ecd4a78c7bde838e013',
-  parentId: '748f5d6cf22d6b0a',
-  name: 'middleware - serveStatic',
-  id: '9f0e4024cd8ed09c',
-  kind: 0,
-  timestamp: 1666757370791709,
-  duration: 7444,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '3f63af73abb52ecd4a78c7bde838e013',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: '748f5d6cf22d6b0a',
-  kind: 1,
-  timestamp: 1666757370791129,
-  duration: 9582,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/sdfsdfsd.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/sdfsdfsd.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43832,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '3f63af73abb52ecd4a78c7bde838e013',
-  parentId: '748f5d6cf22d6b0a',
-  name: 'middleware - <anonymous>',
-  id: '714630fe92616806',
-  kind: 0,
-  timestamp: 1666757370799464,
-  duration: 2833,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '2853ec39ed0e48cd2824e5daf71d2a64',
-  parentId: '9723e58ba3a699f2',
-  name: 'middleware - serveStatic',
-  id: 'b034496efab118be',
-  kind: 0,
-  timestamp: 1666757370793455,
-  duration: 9307,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '2853ec39ed0e48cd2824e5daf71d2a64',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: '9723e58ba3a699f2',
-  kind: 1,
-  timestamp: 1666757370793038,
-  duration: 10170,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/HELLO.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/HELLO.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43834,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '2853ec39ed0e48cd2824e5daf71d2a64',
-  parentId: '9723e58ba3a699f2',
-  name: 'middleware - <anonymous>',
-  id: '682b4916b8f80c85',
-  kind: 0,
-  timestamp: 1666757370802835,
-  duration: 446,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '2d5a11a339911668e34405eff6e8f858',
-  parentId: 'dc45ec7420e83a2b',
-  name: 'middleware - query',
-  id: 'cbe4f1bcbb479d0c',
-  kind: 0,
-  timestamp: 1666757370820264,
-  duration: 54,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '2d5a11a339911668e34405eff6e8f858',
-  parentId: 'dc45ec7420e83a2b',
-  name: 'middleware - expressInit',
-  id: '761a580d8ddbc281',
-  kind: 0,
-  timestamp: 1666757370820806,
-  duration: 75,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '2d5a11a339911668e34405eff6e8f858',
-  parentId: 'dc45ec7420e83a2b',
-  name: 'middleware - jsonParser',
-  id: '73856110496dff6e',
-  kind: 0,
-  timestamp: 1666757370820922,
-  duration: 45,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '2d5a11a339911668e34405eff6e8f858',
-  parentId: 'dc45ec7420e83a2b',
-  name: 'middleware - urlencodedParser',
-  id: '974c1f5b6b1ff36a',
-  kind: 0,
-  timestamp: 1666757370820996,
-  duration: 15,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'bb2de3e8c61070fa86ba03f7f09b1760',
-  parentId: '4f6345cb000e3afb',
-  name: 'middleware - query',
-  id: '8fcbc9f342127c7a',
-  kind: 0,
-  timestamp: 1666757370821122,
-  duration: 23,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'bb2de3e8c61070fa86ba03f7f09b1760',
-  parentId: '4f6345cb000e3afb',
-  name: 'middleware - expressInit',
-  id: '8209ba9f4751170e',
-  kind: 0,
-  timestamp: 1666757370821169,
-  duration: 34,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'bb2de3e8c61070fa86ba03f7f09b1760',
-  parentId: '4f6345cb000e3afb',
-  name: 'middleware - jsonParser',
-  id: 'a500bec08dccbcdf',
-  kind: 0,
-  timestamp: 1666757370821222,
-  duration: 192,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'bb2de3e8c61070fa86ba03f7f09b1760',
-  parentId: '4f6345cb000e3afb',
-  name: 'middleware - urlencodedParser',
-  id: '68414281b784f4a4',
-  kind: 0,
-  timestamp: 1666757370821448,
-  duration: 14,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'dc1bd895b107682c1c84eee35c3b5be3',
-  parentId: 'edabf3f67b5b1fbd',
-  name: 'middleware - query',
-  id: 'c34acf079f7dc800',
-  kind: 0,
-  timestamp: 1666757370822105,
-  duration: 18,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'dc1bd895b107682c1c84eee35c3b5be3',
-  parentId: 'edabf3f67b5b1fbd',
-  name: 'middleware - expressInit',
-  id: 'a72c57f688bfd961',
-  kind: 0,
-  timestamp: 1666757370822143,
-  duration: 24,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'dc1bd895b107682c1c84eee35c3b5be3',
-  parentId: 'edabf3f67b5b1fbd',
-  name: 'middleware - jsonParser',
-  id: 'ab115909a2db0502',
-  kind: 0,
-  timestamp: 1666757370822183,
-  duration: 17,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'dc1bd895b107682c1c84eee35c3b5be3',
-  parentId: 'edabf3f67b5b1fbd',
-  name: 'middleware - urlencodedParser',
-  id: '85069d1926cb3c02',
-  kind: 0,
-  timestamp: 1666757370822221,
-  duration: 13,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '2d5a11a339911668e34405eff6e8f858',
-  parentId: 'dc45ec7420e83a2b',
-  name: 'middleware - serveStatic',
-  id: '98738cc832805983',
-  kind: 0,
-  timestamp: 1666757370821044,
-  duration: 2344,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '2d5a11a339911668e34405eff6e8f858',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: 'dc45ec7420e83a2b',
-  kind: 1,
-  timestamp: 1666757370820051,
-  duration: 5195,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/sdfsd.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/sdfsd.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43832,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '2d5a11a339911668e34405eff6e8f858',
-  parentId: 'dc45ec7420e83a2b',
-  name: 'middleware - <anonymous>',
-  id: '9296940abb668479',
-  kind: 0,
-  timestamp: 1666757370823896,
-  duration: 1445,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'bb2de3e8c61070fa86ba03f7f09b1760',
-  parentId: '4f6345cb000e3afb',
-  name: 'middleware - serveStatic',
-  id: '5eb21102483da942',
-  kind: 0,
-  timestamp: 1666757370821484,
-  duration: 3590,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'bb2de3e8c61070fa86ba03f7f09b1760',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: '4f6345cb000e3afb',
-  kind: 1,
-  timestamp: 1666757370821033,
-  duration: 4874,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/sefsd.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/sefsd.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43838,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'bb2de3e8c61070fa86ba03f7f09b1760',
-  parentId: '4f6345cb000e3afb',
-  name: 'middleware - <anonymous>',
-  id: '96c3297ecdfc4fc0',
-  kind: 0,
-  timestamp: 1666757370825140,
-  duration: 3828,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'dc1bd895b107682c1c84eee35c3b5be3',
-  parentId: 'edabf3f67b5b1fbd',
-  name: 'middleware - serveStatic',
-  id: '82c1184215135362',
-  kind: 0,
-  timestamp: 1666757370822766,
-  duration: 6655,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'dc1bd895b107682c1c84eee35c3b5be3',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: 'edabf3f67b5b1fbd',
-  kind: 1,
-  timestamp: 1666757370822021,
-  duration: 8284,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/sdfsdfds.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/sdfsdfds.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43834,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: 'dc1bd895b107682c1c84eee35c3b5be3',
-  parentId: 'edabf3f67b5b1fbd',
-  name: 'middleware - <anonymous>',
-  id: '9a10df827063644f',
-  kind: 0,
-  timestamp: 1666757370829812,
-  duration: 620,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '21ca303f70d385ec1b88aa95542a587e',
-  parentId: '993f8e14a7132209',
-  name: 'middleware - query',
-  id: '16dca0b250fb1624',
-  kind: 0,
-  timestamp: 1666757370835094,
-  duration: 21,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '21ca303f70d385ec1b88aa95542a587e',
-  parentId: '993f8e14a7132209',
-  name: 'middleware - expressInit',
-  id: 'cb41a91ac3f540b0',
-  kind: 0,
-  timestamp: 1666757370835135,
-  duration: 26,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '21ca303f70d385ec1b88aa95542a587e',
-  parentId: '993f8e14a7132209',
-  name: 'middleware - jsonParser',
-  id: '8ddbbb0a27706cd2',
-  kind: 0,
-  timestamp: 1666757370835179,
-  duration: 28,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '21ca303f70d385ec1b88aa95542a587e',
-  parentId: '993f8e14a7132209',
-  name: 'middleware - urlencodedParser',
-  id: 'e11c8897b7f5bee3',
-  kind: 0,
-  timestamp: 1666757370835227,
-  duration: 12,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '21ca303f70d385ec1b88aa95542a587e',
-  parentId: '993f8e14a7132209',
-  name: 'middleware - serveStatic',
-  id: '564492017e8cb33e',
-  kind: 0,
-  timestamp: 1666757370835261,
-  duration: 2850,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '21ca303f70d385ec1b88aa95542a587e',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: '993f8e14a7132209',
-  kind: 1,
-  timestamp: 1666757370835022,
-  duration: 4101,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/sdfsdsdf.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/sdfsdsdf.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43840,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '21ca303f70d385ec1b88aa95542a587e',
-  parentId: '993f8e14a7132209',
-  name: 'middleware - <anonymous>',
-  id: '363fa407b94d23c1',
-  kind: 0,
-  timestamp: 1666757370838438,
-  duration: 1122,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '3b2ac2eece3f351eb6abe48778150401',
-  parentId: '3611eebb7a37d468',
-  name: 'middleware - query',
-  id: '92c196b8dd19906f',
-  kind: 0,
-  timestamp: 1666757370867118,
-  duration: 22,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '3b2ac2eece3f351eb6abe48778150401',
-  parentId: '3611eebb7a37d468',
-  name: 'middleware - expressInit',
-  id: '3accf6ea37b4f3a0',
-  kind: 0,
-  timestamp: 1666757370867164,
-  duration: 84,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '3b2ac2eece3f351eb6abe48778150401',
-  parentId: '3611eebb7a37d468',
-  name: 'middleware - jsonParser',
-  id: '398a5269efacedc3',
-  kind: 0,
-  timestamp: 1666757370867456,
-  duration: 28,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '3b2ac2eece3f351eb6abe48778150401',
-  parentId: '3611eebb7a37d468',
-  name: 'middleware - urlencodedParser',
-  id: '47f5f32312bdaf75',
-  kind: 0,
-  timestamp: 1666757370867506,
-  duration: 17,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '3b2ac2eece3f351eb6abe48778150401',
-  parentId: '3611eebb7a37d468',
-  name: 'middleware - serveStatic',
-  id: '02e1bcaf5d9a3e9b',
-  kind: 0,
-  timestamp: 1666757370868192,
-  duration: 558,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '3b2ac2eece3f351eb6abe48778150401',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: '3611eebb7a37d468',
-  kind: 1,
-  timestamp: 1666757370867026,
-  duration: 2452,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/dfsd.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/dfsd.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43832,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '3b2ac2eece3f351eb6abe48778150401',
-  parentId: '3611eebb7a37d468',
-  name: 'middleware - <anonymous>',
-  id: 'cd3dcdb48fffaf57',
-  kind: 0,
-  timestamp: 1666757370868799,
-  duration: 945,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '4f38fed82b6ebe9ae00939089147e4b4',
-  parentId: '0a705868294adfd2',
-  name: 'middleware - query',
-  id: 'bd711b981e16b464',
-  kind: 0,
-  timestamp: 1666757370884192,
-  duration: 27,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '4f38fed82b6ebe9ae00939089147e4b4',
-  parentId: '0a705868294adfd2',
-  name: 'middleware - expressInit',
-  id: '2442190ebb47db02',
-  kind: 0,
-  timestamp: 1666757370884245,
-  duration: 30,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '4f38fed82b6ebe9ae00939089147e4b4',
-  parentId: '0a705868294adfd2',
-  name: 'middleware - jsonParser',
-  id: 'f6e892d39f22c7a5',
-  kind: 0,
-  timestamp: 1666757370884293,
-  duration: 23,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '4f38fed82b6ebe9ae00939089147e4b4',
-  parentId: '0a705868294adfd2',
-  name: 'middleware - urlencodedParser',
-  id: 'b802e3a397d6af61',
-  kind: 0,
-  timestamp: 1666757370884337,
-  duration: 15,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '4f38fed82b6ebe9ae00939089147e4b4',
-  parentId: '0a705868294adfd2',
-  name: 'middleware - serveStatic',
-  id: '8cf197460d8ab62d',
-  kind: 0,
-  timestamp: 1666757370884376,
-  duration: 721,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '4f38fed82b6ebe9ae00939089147e4b4',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: '0a705868294adfd2',
-  kind: 1,
-  timestamp: 1666757370884050,
-  duration: 1297,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/sd.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/sd.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43844,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '4f38fed82b6ebe9ae00939089147e4b4',
-  parentId: '0a705868294adfd2',
-  name: 'middleware - <anonymous>',
-  id: 'ff74373ee72f2263',
-  kind: 0,
-  timestamp: 1666757370885138,
-  duration: 259,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '5e4af16955b2100c63c612d04249c4e8',
-  parentId: 'e7439bfe0df65e1b',
-  name: 'middleware - query',
-  id: '536aaee52e6fe07e',
-  kind: 0,
-  timestamp: 1666757370889322,
-  duration: 55,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '5e4af16955b2100c63c612d04249c4e8',
-  parentId: 'e7439bfe0df65e1b',
-  name: 'middleware - expressInit',
-  id: '95a86e4854479bad',
-  kind: 0,
-  timestamp: 1666757370889422,
-  duration: 40,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '5e4af16955b2100c63c612d04249c4e8',
-  parentId: 'e7439bfe0df65e1b',
-  name: 'middleware - jsonParser',
-  id: 'c3760c057ee8bfd3',
-  kind: 0,
-  timestamp: 1666757370889485,
-  duration: 21,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '5e4af16955b2100c63c612d04249c4e8',
-  parentId: 'e7439bfe0df65e1b',
-  name: 'middleware - urlencodedParser',
-  id: '62b581bee5d4d9f3',
-  kind: 0,
-  timestamp: 1666757370889528,
-  duration: 20,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '70443a34bad9432ab64af4f974b522f0',
-  parentId: '35dffe835fe72648',
-  name: 'middleware - query',
-  id: 'da937230d78ac6f3',
-  kind: 0,
-  timestamp: 1666757370890455,
-  duration: 29,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'query',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '70443a34bad9432ab64af4f974b522f0',
-  parentId: '35dffe835fe72648',
-  name: 'middleware - expressInit',
-  id: '2ed2b0470ef9dbef',
-  kind: 0,
-  timestamp: 1666757370890509,
-  duration: 26,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'expressInit',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '70443a34bad9432ab64af4f974b522f0',
-  parentId: '35dffe835fe72648',
-  name: 'middleware - jsonParser',
-  id: '7bfdbcb7a1364da8',
-  kind: 0,
-  timestamp: 1666757370890555,
-  duration: 20,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'jsonParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '70443a34bad9432ab64af4f974b522f0',
-  parentId: '35dffe835fe72648',
-  name: 'middleware - urlencodedParser',
-  id: 'd2ba561067e7a028',
-  kind: 0,
-  timestamp: 1666757370890594,
-  duration: 17,
-  attributes: {
-    'http.route': '/',
-    'express.name': 'urlencodedParser',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '5e4af16955b2100c63c612d04249c4e8',
-  parentId: 'e7439bfe0df65e1b',
-  name: 'middleware - serveStatic',
-  id: 'e5d9b4c5a840df50',
-  kind: 0,
-  timestamp: 1666757370889571,
-  duration: 1698,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '5e4af16955b2100c63c612d04249c4e8',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: 'e7439bfe0df65e1b',
-  kind: 1,
-  timestamp: 1666757370889093,
-  duration: 2488,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/ss.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/ss.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43840,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '5e4af16955b2100c63c612d04249c4e8',
-  parentId: 'e7439bfe0df65e1b',
-  name: 'middleware - <anonymous>',
-  id: '3cd1e68ba25d47c9',
-  kind: 0,
-  timestamp: 1666757370891307,
-  duration: 478,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '70443a34bad9432ab64af4f974b522f0',
-  parentId: '35dffe835fe72648',
-  name: 'middleware - serveStatic',
-  id: '0319f36c7a774c3d',
-  kind: 0,
-  timestamp: 1666757370890630,
-  duration: 8085,
-  attributes: {
-    'http.route': '/assets',
-    'express.name': 'serveStatic',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '70443a34bad9432ab64af4f974b522f0',
-  parentId: undefined,
-  name: 'HTTP GET',
-  id: '35dffe835fe72648',
-  kind: 1,
-  timestamp: 1666757370890023,
-  duration: 9150,
-  attributes: {
-    'http.url': 'http://localhost:3000/assets/jk.jpg',
-    'http.host': 'localhost:3000',
-    'net.host.name': 'localhost',
-    'http.method': 'GET',
-    'http.target': '/assets/jk.jpg',
-    'http.user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
-    'http.flavor': '1.1',
-    'net.transport': 'ip_tcp',
-    'net.host.ip': '::ffff:127.0.0.1',
-    'net.host.port': 3000,
-    'net.peer.ip': '::ffff:127.0.0.1',
-    'net.peer.port': 43832,
-    'http.status_code': 404,
-    'http.status_text': 'NOT FOUND',
-    'http.route': ''
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
-}
-{
-  traceId: '70443a34bad9432ab64af4f974b522f0',
-  parentId: '35dffe835fe72648',
-  name: 'middleware - <anonymous>',
-  id: 'cef55ce235e5e01d',
-  kind: 0,
-  timestamp: 1666757370898763,
-  duration: 470,
-  attributes: {
-    'http.route': '/',
-    'express.name': '<anonymous>',
-    'express.type': 'middleware'
-  },
-  status: { code: 0 },
-  events: [],
-  links: []
+	"resourceSpans": [
+		{
+			"resource": {
+				"attributes": [
+					{
+						"key": "service.name",
+						"value": {
+							"stringValue": "unknown_service:node"
+						}
+					},
+					{
+						"key": "telemetry.sdk.language",
+						"value": {
+							"stringValue": "nodejs"
+						}
+					},
+					{
+						"key": "telemetry.sdk.name",
+						"value": {
+							"stringValue": "opentelemetry"
+						}
+					},
+					{
+						"key": "telemetry.sdk.version",
+						"value": {
+							"stringValue": "1.7.0"
+						}
+					},
+					{
+						"key": "process.pid",
+						"value": {
+							"intValue": 19
+						}
+					},
+					{
+						"key": "process.executable.name",
+						"value": {
+							"stringValue": "node"
+						}
+					},
+					{
+						"key": "process.command",
+						"value": {
+							"stringValue": "/app/server/server.js"
+						}
+					},
+					{
+						"key": "process.command_line",
+						"value": {
+							"stringValue": "/usr/local/bin/node /app/server/server.js"
+						}
+					},
+					{
+						"key": "process.runtime.version",
+						"value": {
+							"stringValue": "19.0.0"
+						}
+					},
+					{
+						"key": "process.runtime.name",
+						"value": {
+							"stringValue": "nodejs"
+						}
+					},
+					{
+						"key": "process.runtime.description",
+						"value": {
+							"stringValue": "Node.js"
+						}
+					}
+				],
+				"droppedAttributesCount": 0
+			},
+			"scopeSpans": [
+				{
+					"scope": {
+						"name": "@opentelemetry/instrumentation-dns",
+						"version": "0.30.0"
+					},
+					"spans": [
+						{
+							"traceId": "7ec4f1367342879df1b8dbf836ed7f68",
+							"spanId": "26fc0df4c32e33ed",
+							"name": "dns.lookup",
+							"kind": 3,
+							"startTimeUnixNano": 1666759137541023500,
+							"endTimeUnixNano": 1666759137543246800,
+							"attributes": [
+								{
+									"key": "peer.ipv4",
+									"value": {
+										"stringValue": "13.64.102.141"
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "239c4fe66145ce93b8492bf502d2fdb7",
+							"spanId": "db9fc0f30b507c71",
+							"name": "dns.lookup",
+							"kind": 3,
+							"startTimeUnixNano": 1666759137542021600,
+							"endTimeUnixNano": 1666759137544683800,
+							"attributes": [
+								{
+									"key": "peer.ipv4",
+									"value": {
+										"stringValue": "13.64.96.159"
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "0966a9bc879ff058f54b4cf7aae91fb0",
+							"spanId": "75adcc11a28bd3ac",
+							"name": "dns.lookup",
+							"kind": 3,
+							"startTimeUnixNano": 1666759137552007700,
+							"endTimeUnixNano": 1666759137555005200,
+							"attributes": [
+								{
+									"key": "peer.ipv4",
+									"value": {
+										"stringValue": "13.64.103.77"
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						}
+					]
+				},
+				{
+					"scope": {
+						"name": "@opentelemetry/instrumentation-net",
+						"version": "0.30.1"
+					},
+					"spans": [
+						{
+							"traceId": "08042ae5bb26127dcfaf0cf9136990cf",
+							"spanId": "f7218ba28de03eec",
+							"name": "tcp.connect",
+							"kind": 1,
+							"startTimeUnixNano": 1666759137540022300,
+							"endTimeUnixNano": 1666759137555115500,
+							"attributes": [
+								{
+									"key": "net.transport",
+									"value": {
+										"stringValue": "ip_tcp"
+									}
+								},
+								{
+									"key": "net.peer.name",
+									"value": {
+										"stringValue": "ac-ipvprxe-shard-00-01.vrgxqxt.mongodb.net"
+									}
+								},
+								{
+									"key": "net.peer.port",
+									"value": {
+										"intValue": 27017
+									}
+								},
+								{
+									"key": "net.peer.ip",
+									"value": {
+										"stringValue": "13.64.102.141"
+									}
+								},
+								{
+									"key": "net.host.ip",
+									"value": {
+										"stringValue": "172.17.0.15"
+									}
+								},
+								{
+									"key": "net.host.port",
+									"value": {
+										"intValue": 47794
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "4abf8cf1edf2d0784a2c19dae856a09f",
+							"spanId": "a92168559b3f8c96",
+							"name": "tcp.connect",
+							"kind": 1,
+							"startTimeUnixNano": 1666759137542015000,
+							"endTimeUnixNano": 1666759137560254200,
+							"attributes": [
+								{
+									"key": "net.transport",
+									"value": {
+										"stringValue": "ip_tcp"
+									}
+								},
+								{
+									"key": "net.peer.name",
+									"value": {
+										"stringValue": "ac-ipvprxe-shard-00-00.vrgxqxt.mongodb.net"
+									}
+								},
+								{
+									"key": "net.peer.port",
+									"value": {
+										"intValue": 27017
+									}
+								},
+								{
+									"key": "net.peer.ip",
+									"value": {
+										"stringValue": "13.64.96.159"
+									}
+								},
+								{
+									"key": "net.host.ip",
+									"value": {
+										"stringValue": "172.17.0.15"
+									}
+								},
+								{
+									"key": "net.host.port",
+									"value": {
+										"intValue": 48510
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "67390f1c9eb2bf567c38710b0162cbc7",
+							"spanId": "bbbf5145529d2c05",
+							"name": "tcp.connect",
+							"kind": 1,
+							"startTimeUnixNano": 1666759137552012800,
+							"endTimeUnixNano": 1666759137567855400,
+							"attributes": [
+								{
+									"key": "net.transport",
+									"value": {
+										"stringValue": "ip_tcp"
+									}
+								},
+								{
+									"key": "net.peer.name",
+									"value": {
+										"stringValue": "ac-ipvprxe-shard-00-02.vrgxqxt.mongodb.net"
+									}
+								},
+								{
+									"key": "net.peer.port",
+									"value": {
+										"intValue": 27017
+									}
+								},
+								{
+									"key": "net.peer.ip",
+									"value": {
+										"stringValue": "13.64.103.77"
+									}
+								},
+								{
+									"key": "net.host.ip",
+									"value": {
+										"stringValue": "172.17.0.15"
+									}
+								},
+								{
+									"key": "net.host.port",
+									"value": {
+										"intValue": 60676
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "d56a2c39cbdaaa612a8736680cdad5db",
+							"spanId": "e7fe55bd2e04706f",
+							"name": "tls.connect",
+							"kind": 1,
+							"startTimeUnixNano": 1666759137540057300,
+							"endTimeUnixNano": 1666759137590684000,
+							"attributes": [
+								{
+									"key": "tls.protocol",
+									"value": {
+										"stringValue": "TLSv1.3"
+									}
+								},
+								{
+									"key": "tls.authorized",
+									"value": {
+										"stringValue": "true"
+									}
+								},
+								{
+									"key": "tls.cipher.name",
+									"value": {
+										"stringValue": "TLS_AES_128_GCM_SHA256"
+									}
+								},
+								{
+									"key": "tls.cipher.version",
+									"value": {
+										"stringValue": "TLSv1.3"
+									}
+								},
+								{
+									"key": "tls.certificate.fingerprint",
+									"value": {
+										"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+									}
+								},
+								{
+									"key": "tls.certificate.serialNumber",
+									"value": {
+										"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+									}
+								},
+								{
+									"key": "tls.certificate.validFrom",
+									"value": {
+										"stringValue": "Sep 17 00:19:37 2022 GMT"
+									}
+								},
+								{
+									"key": "tls.certificate.validTo",
+									"value": {
+										"stringValue": "Dec 16 00:19:36 2022 GMT"
+									}
+								},
+								{
+									"key": "tls.alpnProtocol",
+									"value": {
+										"stringValue": ""
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "3937f9ce67a6f057faa79f487935d9c8",
+							"spanId": "ab7dacd8750435d1",
+							"name": "tls.connect",
+							"kind": 1,
+							"startTimeUnixNano": 1666759137542025200,
+							"endTimeUnixNano": 1666759137602289400,
+							"attributes": [
+								{
+									"key": "tls.protocol",
+									"value": {
+										"stringValue": "TLSv1.3"
+									}
+								},
+								{
+									"key": "tls.authorized",
+									"value": {
+										"stringValue": "true"
+									}
+								},
+								{
+									"key": "tls.cipher.name",
+									"value": {
+										"stringValue": "TLS_AES_128_GCM_SHA256"
+									}
+								},
+								{
+									"key": "tls.cipher.version",
+									"value": {
+										"stringValue": "TLSv1.3"
+									}
+								},
+								{
+									"key": "tls.certificate.fingerprint",
+									"value": {
+										"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+									}
+								},
+								{
+									"key": "tls.certificate.serialNumber",
+									"value": {
+										"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+									}
+								},
+								{
+									"key": "tls.certificate.validFrom",
+									"value": {
+										"stringValue": "Sep 17 00:19:37 2022 GMT"
+									}
+								},
+								{
+									"key": "tls.certificate.validTo",
+									"value": {
+										"stringValue": "Dec 16 00:19:36 2022 GMT"
+									}
+								},
+								{
+									"key": "tls.alpnProtocol",
+									"value": {
+										"stringValue": ""
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "80fccfb92ac3c456f2a49ab1ebf30067",
+							"spanId": "dd68e8cf811854bd",
+							"name": "tls.connect",
+							"kind": 1,
+							"startTimeUnixNano": 1666759137552026600,
+							"endTimeUnixNano": 1666759137605710000,
+							"attributes": [
+								{
+									"key": "tls.protocol",
+									"value": {
+										"stringValue": "TLSv1.3"
+									}
+								},
+								{
+									"key": "tls.authorized",
+									"value": {
+										"stringValue": "true"
+									}
+								},
+								{
+									"key": "tls.cipher.name",
+									"value": {
+										"stringValue": "TLS_AES_128_GCM_SHA256"
+									}
+								},
+								{
+									"key": "tls.cipher.version",
+									"value": {
+										"stringValue": "TLSv1.3"
+									}
+								},
+								{
+									"key": "tls.certificate.fingerprint",
+									"value": {
+										"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+									}
+								},
+								{
+									"key": "tls.certificate.serialNumber",
+									"value": {
+										"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+									}
+								},
+								{
+									"key": "tls.certificate.validFrom",
+									"value": {
+										"stringValue": "Sep 17 00:19:37 2022 GMT"
+									}
+								},
+								{
+									"key": "tls.certificate.validTo",
+									"value": {
+										"stringValue": "Dec 16 00:19:36 2022 GMT"
+									}
+								},
+								{
+									"key": "tls.alpnProtocol",
+									"value": {
+										"stringValue": ""
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						}
+					]
+				}
+			]
+		}
+	]
+}
+
+{
+	"resourceSpans": [
+		{
+			"resource": {
+				"attributes": [
+					{
+						"key": "service.name",
+						"value": {
+							"stringValue": "unknown_service:node"
+						}
+					},
+					{
+						"key": "telemetry.sdk.language",
+						"value": {
+							"stringValue": "nodejs"
+						}
+					},
+					{
+						"key": "telemetry.sdk.name",
+						"value": {
+							"stringValue": "opentelemetry"
+						}
+					},
+					{
+						"key": "telemetry.sdk.version",
+						"value": {
+							"stringValue": "1.7.0"
+						}
+					},
+					{
+						"key": "process.pid",
+						"value": {
+							"intValue": 19
+						}
+					},
+					{
+						"key": "process.executable.name",
+						"value": {
+							"stringValue": "node"
+						}
+					},
+					{
+						"key": "process.command",
+						"value": {
+							"stringValue": "/app/server/server.js"
+						}
+					},
+					{
+						"key": "process.command_line",
+						"value": {
+							"stringValue": "/usr/local/bin/node /app/server/server.js"
+						}
+					},
+					{
+						"key": "process.runtime.version",
+						"value": {
+							"stringValue": "19.0.0"
+						}
+					},
+					{
+						"key": "process.runtime.name",
+						"value": {
+							"stringValue": "nodejs"
+						}
+					},
+					{
+						"key": "process.runtime.description",
+						"value": {
+							"stringValue": "Node.js"
+						}
+					}
+				],
+				"droppedAttributesCount": 0
+			},
+			"scopeSpans": [
+				{
+					"scope": {
+						"name": "@opentelemetry/instrumentation-dns",
+						"version": "0.30.0"
+					},
+					"spans": [
+						{
+							"traceId": "7bd8b257fe8e0270da9072bf19da007b",
+							"spanId": "ed4d659ebd58022e",
+							"name": "dns.lookup",
+							"kind": 3,
+							"startTimeUnixNano": 1666759126937031400,
+							"endTimeUnixNano": 1666759126958062000,
+							"attributes": [
+								{
+									"key": "peer.ipv4",
+									"value": {
+										"stringValue": "13.64.102.141"
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "d191bc91bd2567822a1d5a8d884f1a3e",
+							"spanId": "34edd793adcdb353",
+							"name": "dns.lookup",
+							"kind": 3,
+							"startTimeUnixNano": 1666759126939008300,
+							"endTimeUnixNano": 1666759126964580600,
+							"attributes": [
+								{
+									"key": "peer.ipv4",
+									"value": {
+										"stringValue": "13.64.96.159"
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "8341081ebe88ff9e81388379d59cbbd4",
+							"spanId": "7ee5e672f285ea15",
+							"name": "dns.lookup",
+							"kind": 3,
+							"startTimeUnixNano": 1666759126939030500,
+							"endTimeUnixNano": 1666759126979426300,
+							"attributes": [
+								{
+									"key": "peer.ipv4",
+									"value": {
+										"stringValue": "13.64.103.77"
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "66476c36b7273098c73aca2cfe26ff1c",
+							"spanId": "e046276e9d11190f",
+							"name": "dns.lookup",
+							"kind": 3,
+							"startTimeUnixNano": 1666759127033012500,
+							"endTimeUnixNano": 1666759127035203800,
+							"attributes": [
+								{
+									"key": "peer.ipv4",
+									"value": {
+										"stringValue": "13.64.102.141"
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						}
+					]
+				},
+				{
+					"scope": {
+						"name": "@opentelemetry/instrumentation-net",
+						"version": "0.30.1"
+					},
+					"spans": [
+						{
+							"traceId": "e14ac6adfe8ee69d657a5ef54777c1b9",
+							"spanId": "e6a033f5514bd42d",
+							"name": "tcp.connect",
+							"kind": 1,
+							"startTimeUnixNano": 1666759126936042500,
+							"endTimeUnixNano": 1666759126971102200,
+							"attributes": [
+								{
+									"key": "net.transport",
+									"value": {
+										"stringValue": "ip_tcp"
+									}
+								},
+								{
+									"key": "net.peer.name",
+									"value": {
+										"stringValue": "ac-ipvprxe-shard-00-01.vrgxqxt.mongodb.net"
+									}
+								},
+								{
+									"key": "net.peer.port",
+									"value": {
+										"intValue": 27017
+									}
+								},
+								{
+									"key": "net.peer.ip",
+									"value": {
+										"stringValue": "13.64.102.141"
+									}
+								},
+								{
+									"key": "net.host.ip",
+									"value": {
+										"stringValue": "172.17.0.15"
+									}
+								},
+								{
+									"key": "net.host.port",
+									"value": {
+										"intValue": 58620
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "1a66fb261a7c2555cdbab39b30bfe5ce",
+							"spanId": "23d68ec1aa95a2df",
+							"name": "tcp.connect",
+							"kind": 1,
+							"startTimeUnixNano": 1666759126938022100,
+							"endTimeUnixNano": 1666759126976607500,
+							"attributes": [
+								{
+									"key": "net.transport",
+									"value": {
+										"stringValue": "ip_tcp"
+									}
+								},
+								{
+									"key": "net.peer.name",
+									"value": {
+										"stringValue": "ac-ipvprxe-shard-00-00.vrgxqxt.mongodb.net"
+									}
+								},
+								{
+									"key": "net.peer.port",
+									"value": {
+										"intValue": 27017
+									}
+								},
+								{
+									"key": "net.peer.ip",
+									"value": {
+										"stringValue": "13.64.96.159"
+									}
+								},
+								{
+									"key": "net.host.ip",
+									"value": {
+										"stringValue": "172.17.0.15"
+									}
+								},
+								{
+									"key": "net.host.port",
+									"value": {
+										"intValue": 58690
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "923b52b6559557fcc113900d86f28424",
+							"spanId": "f0fdd8ee399cbd18",
+							"name": "tcp.connect",
+							"kind": 1,
+							"startTimeUnixNano": 1666759126939102500,
+							"endTimeUnixNano": 1666759126992159700,
+							"attributes": [
+								{
+									"key": "net.transport",
+									"value": {
+										"stringValue": "ip_tcp"
+									}
+								},
+								{
+									"key": "net.peer.name",
+									"value": {
+										"stringValue": "ac-ipvprxe-shard-00-02.vrgxqxt.mongodb.net"
+									}
+								},
+								{
+									"key": "net.peer.port",
+									"value": {
+										"intValue": 27017
+									}
+								},
+								{
+									"key": "net.peer.ip",
+									"value": {
+										"stringValue": "13.64.103.77"
+									}
+								},
+								{
+									"key": "net.host.ip",
+									"value": {
+										"stringValue": "172.17.0.15"
+									}
+								},
+								{
+									"key": "net.host.port",
+									"value": {
+										"intValue": 51526
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "5a30047a3ac4c384bd4b77bba17e644d",
+							"spanId": "c5e976b3a2df3323",
+							"name": "tls.connect",
+							"kind": 1,
+							"startTimeUnixNano": 1666759126935228700,
+							"endTimeUnixNano": 1666759127005818000,
+							"attributes": [
+								{
+									"key": "tls.protocol",
+									"value": {
+										"stringValue": "TLSv1.3"
+									}
+								},
+								{
+									"key": "tls.authorized",
+									"value": {
+										"stringValue": "true"
+									}
+								},
+								{
+									"key": "tls.cipher.name",
+									"value": {
+										"stringValue": "TLS_AES_128_GCM_SHA256"
+									}
+								},
+								{
+									"key": "tls.cipher.version",
+									"value": {
+										"stringValue": "TLSv1.3"
+									}
+								},
+								{
+									"key": "tls.certificate.fingerprint",
+									"value": {
+										"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+									}
+								},
+								{
+									"key": "tls.certificate.serialNumber",
+									"value": {
+										"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+									}
+								},
+								{
+									"key": "tls.certificate.validFrom",
+									"value": {
+										"stringValue": "Sep 17 00:19:37 2022 GMT"
+									}
+								},
+								{
+									"key": "tls.certificate.validTo",
+									"value": {
+										"stringValue": "Dec 16 00:19:36 2022 GMT"
+									}
+								},
+								{
+									"key": "tls.alpnProtocol",
+									"value": {
+										"stringValue": ""
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "d16671b0c50bd98ba5fe2363e6abc70c",
+							"spanId": "d8bf6837d1c04e21",
+							"name": "tls.connect",
+							"kind": 1,
+							"startTimeUnixNano": 1666759126938021600,
+							"endTimeUnixNano": 1666759127013131000,
+							"attributes": [
+								{
+									"key": "tls.protocol",
+									"value": {
+										"stringValue": "TLSv1.3"
+									}
+								},
+								{
+									"key": "tls.authorized",
+									"value": {
+										"stringValue": "true"
+									}
+								},
+								{
+									"key": "tls.cipher.name",
+									"value": {
+										"stringValue": "TLS_AES_128_GCM_SHA256"
+									}
+								},
+								{
+									"key": "tls.cipher.version",
+									"value": {
+										"stringValue": "TLSv1.3"
+									}
+								},
+								{
+									"key": "tls.certificate.fingerprint",
+									"value": {
+										"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+									}
+								},
+								{
+									"key": "tls.certificate.serialNumber",
+									"value": {
+										"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+									}
+								},
+								{
+									"key": "tls.certificate.validFrom",
+									"value": {
+										"stringValue": "Sep 17 00:19:37 2022 GMT"
+									}
+								},
+								{
+									"key": "tls.certificate.validTo",
+									"value": {
+										"stringValue": "Dec 16 00:19:36 2022 GMT"
+									}
+								},
+								{
+									"key": "tls.alpnProtocol",
+									"value": {
+										"stringValue": ""
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "cdb6e9493f88c5e8c2b132614571fd70",
+							"spanId": "6f3d079a0668f5c2",
+							"name": "tls.connect",
+							"kind": 1,
+							"startTimeUnixNano": 1666759126939016700,
+							"endTimeUnixNano": 1666759127028255000,
+							"attributes": [
+								{
+									"key": "tls.protocol",
+									"value": {
+										"stringValue": "TLSv1.3"
+									}
+								},
+								{
+									"key": "tls.authorized",
+									"value": {
+										"stringValue": "true"
+									}
+								},
+								{
+									"key": "tls.cipher.name",
+									"value": {
+										"stringValue": "TLS_AES_128_GCM_SHA256"
+									}
+								},
+								{
+									"key": "tls.cipher.version",
+									"value": {
+										"stringValue": "TLSv1.3"
+									}
+								},
+								{
+									"key": "tls.certificate.fingerprint",
+									"value": {
+										"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+									}
+								},
+								{
+									"key": "tls.certificate.serialNumber",
+									"value": {
+										"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+									}
+								},
+								{
+									"key": "tls.certificate.validFrom",
+									"value": {
+										"stringValue": "Sep 17 00:19:37 2022 GMT"
+									}
+								},
+								{
+									"key": "tls.certificate.validTo",
+									"value": {
+										"stringValue": "Dec 16 00:19:36 2022 GMT"
+									}
+								},
+								{
+									"key": "tls.alpnProtocol",
+									"value": {
+										"stringValue": ""
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "1fd2347f0e0b2e01ad81cb69faede8b2",
+							"spanId": "6058264d4019157b",
+							"name": "tcp.connect",
+							"kind": 1,
+							"startTimeUnixNano": 1666759127033084700,
+							"endTimeUnixNano": 1666759127047950800,
+							"attributes": [
+								{
+									"key": "net.transport",
+									"value": {
+										"stringValue": "ip_tcp"
+									}
+								},
+								{
+									"key": "net.peer.name",
+									"value": {
+										"stringValue": "ac-ipvprxe-shard-00-01.vrgxqxt.mongodb.net"
+									}
+								},
+								{
+									"key": "net.peer.port",
+									"value": {
+										"intValue": 27017
+									}
+								},
+								{
+									"key": "net.peer.ip",
+									"value": {
+										"stringValue": "13.64.102.141"
+									}
+								},
+								{
+									"key": "net.host.ip",
+									"value": {
+										"stringValue": "172.17.0.15"
+									}
+								},
+								{
+									"key": "net.host.port",
+									"value": {
+										"intValue": 58622
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						},
+						{
+							"traceId": "a342c1e433b12ed6db197c979dc44aea",
+							"spanId": "aab7c5fcfbe31309",
+							"name": "tls.connect",
+							"kind": 1,
+							"startTimeUnixNano": 1666759127033082400,
+							"endTimeUnixNano": 1666759127083137000,
+							"attributes": [
+								{
+									"key": "tls.protocol",
+									"value": {
+										"stringValue": "TLSv1.3"
+									}
+								},
+								{
+									"key": "tls.authorized",
+									"value": {
+										"stringValue": "true"
+									}
+								},
+								{
+									"key": "tls.cipher.name",
+									"value": {
+										"stringValue": "TLS_AES_128_GCM_SHA256"
+									}
+								},
+								{
+									"key": "tls.cipher.version",
+									"value": {
+										"stringValue": "TLSv1.3"
+									}
+								},
+								{
+									"key": "tls.certificate.fingerprint",
+									"value": {
+										"stringValue": "EF:B0:AA:C7:0F:9D:C1:A7:02:2E:D3:D6:24:4D:EA:30:C3:66:64:61"
+									}
+								},
+								{
+									"key": "tls.certificate.serialNumber",
+									"value": {
+										"stringValue": "03C049C841F25AF43043D3CDAF3D2E9A3ABB"
+									}
+								},
+								{
+									"key": "tls.certificate.validFrom",
+									"value": {
+										"stringValue": "Sep 17 00:19:37 2022 GMT"
+									}
+								},
+								{
+									"key": "tls.certificate.validTo",
+									"value": {
+										"stringValue": "Dec 16 00:19:36 2022 GMT"
+									}
+								},
+								{
+									"key": "tls.alpnProtocol",
+									"value": {
+										"stringValue": ""
+									}
+								}
+							],
+							"droppedAttributesCount": 0,
+							"events": [],
+							"droppedEventsCount": 0,
+							"status": {
+								"code": 0
+							},
+							"links": [],
+							"droppedLinksCount": 0
+						}
+					]
+				}
+			]
+		}
+	]
 }

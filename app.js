@@ -4,11 +4,13 @@ const express = require("express");
 const fs = require('fs');
 const models = require ('./models.js');
 const serverController = require ('./controller/servercontroller.js');
-
+const protobuf = require ('protobufjs');
+const bodyParser = require('body-parser');
 const PORT = process.env.PORT || "4318";
 const app = express();
 
-app.use(express.json());
+app.use(bodyParser.raw())
+//app.use(express.json());
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, './index.html'));
@@ -35,7 +37,9 @@ app.use("/v1/traces", (req, res) => {
 
 
 //this will send the trace data to middleware that will write the data to a db
-app.use("/v1/traces", serverController.writeToDB, (req, res) => {
+app.use("/v1/traces", serverController.writeToDB, async (req, res) => {
+	//var decoded = await protobuf.decode(Buffer.from(req.body));
+  //	console.log("this is the decoded req.body", decoded);
 	console.log("this is what is added to the db", res.locals.trace);
 	res.status(200).send("successful add")
 })

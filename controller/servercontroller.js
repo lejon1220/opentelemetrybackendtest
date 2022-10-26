@@ -5,7 +5,7 @@ const serverController = {};
 
 serverController.writeToDB = (req, res, next) => {
   //write data from req.body to the db
-	console.log("in writetobb")
+	console.log("in writetodb")
 	const data = req.body;
 	console.log("this is the entire response", req)
 	console.log("this is the req.body", data);
