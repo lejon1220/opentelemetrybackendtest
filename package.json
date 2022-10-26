@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,7 +15,8 @@
     "@opentelemetry/auto-instrumentations-node": "^0.33.1",
     "@opentelemetry/exporter-trace-otlp-http": "^0.33.0",
     "@opentelemetry/sdk-node": "^0.33.0",
+    "body-parser": "^1.20.1",
     "express": "^4.18.2",
-		"mongoose": "^6.6.2"
+    "mongoose": "^6.6.2"
   }
 }

@@ -14,7 +14,7 @@ mongoose.connect(MONGO_URI, {
 	const Schema = mongoose.Schema;
 
   const traceSchema = new Schema({
-		data: {type: String, required: true},
+		data: {type: String},
 	})
   
 	const Trace = mongoose.model('Trace', traceSchema);
